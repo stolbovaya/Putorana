@@ -1,0 +1,38 @@
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head Set-Cookie: SameSite=None; Secure>
+  <title>Минимальный проект</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=0227e854-33ea-4ac2-9c17-886b665ca5b5&lang=ru_RU" type="text/javascript">
+    ymaps.ready(init);
+    function init(){
+      let myMap = new ymaps.Map("map", {
+        center: [67.499558, 88.781025],
+        zoom: 7
+      });
+    }
+// Загрузка XML данных.
+var data = ymaps.geoXml.load('https://sandbox.api.maps.yandex.net/examples/ru/2.1/geoxml_display/geoObjects.gpx')
+     
+
+// Загрузка производится асинхронно.
+data.then(function(res) {
+    // Установка пресета.
+    res.geoObjects.options.set({
+        "preset": "gpx#plain"
+    });
+    // Добавление объектов на карту.
+    myMap.geoObjects.add(res.geoObjects);
+});
+  </script>
+</head>
+
+<body>
+  <div id="map" style="width: 600px; height: 400px"></div>
+</body>
+
+</html>
