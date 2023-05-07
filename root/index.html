@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)https://kumatoz.ru/wp-content/articles/gpxtrack/index.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Трек Путорана</title>
+    
+   
+      <script src="https://api-maps.yandex.ru/2.1/?apikey=0227e854-33ea-4ac2-9c17-886b665ca5b5&lang=ru_RU" type="text/javascript">
+        ymaps.ready(init);
+	function init(){
+	var myMap = new ymaps.Map("map", {
+	center: [67.499558, 88.781025],
+	zoom: 7
+	});
+	};        
+
+
+         myMap.geoObjects.add(res.geoObjects);
+         if (res.geoObjects.properties.get('boundedBy')) {
+             myMap.setBounds(res.geoObjects.properties.get('boundedBy'), {
+                 checkZoomRange: true
+             });
+         }
+     });
+    }
+    </script>
+</head>
+<body>
+<h1>Вывод gpx трека на карту Яндекса</h1>
+<div id="map" style="width: 800px; height: 600px"></div>
+
+</body></html>
