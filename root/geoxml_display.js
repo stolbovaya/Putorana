@@ -10,8 +10,7 @@ function init() {
 
     // Отключение кеширования атрибута disabled в Firefox.
     gpxButton.get(0).disabled = false;
-    kmlButton.get(0).disabled = false;
-    kmlFlightsButton.get(0).disabled = false;
+
 
     // При нажатии на кнопку загружаем соответствующий XML-файл
     // и отображаем его данные на карте.
