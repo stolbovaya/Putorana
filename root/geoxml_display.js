@@ -6,18 +6,19 @@ function init() {
             zoom: 10,
             controls: ['zoomControl']
         }),
-        gpxButton = $('.load-gpx');
 
+	var data = ymaps.geoXml.load("trek.gpx")
+		.then(onGeoXmlLoad);
 
 
 
     // При нажатии на кнопку загружаем соответствующий XML-файл
     // и отображаем его данные на карте.
-    gpxButton.click(function (e) {
-        ymaps.geoXml.load('trek.gpx')
-            .then(onGeoXmlLoad);
-        e.target.disabled = true;
-    });
+   // gpxButton.click(function (e) {
+  //      ymaps.geoXml.load('trek.gpx')
+   //         .then(onGeoXmlLoad);
+   //     e.target.disabled = true;
+   // });
 
     // Обработчик загрузки XML-файлов.
     function onGeoXmlLoad(res) {
