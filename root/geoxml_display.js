@@ -7,7 +7,7 @@ function init() {
             controls: ['zoomControl']
         }),
 
-	var data = ymaps.geoXml.load("trek.gpx")
+	ymaps.geoXml.load("trek.gpx")
 		.then(onGeoXmlLoad);
 
 
