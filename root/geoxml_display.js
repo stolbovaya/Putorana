@@ -8,8 +8,7 @@ function init() {
         }),
         gpxButton = $('.load-gpx');
 
-    // Отключение кеширования атрибута disabled в Firefox.
-    gpxButton.get(0).disabled = false;
+
 
 
     // При нажатии на кнопку загружаем соответствующий XML-файл
