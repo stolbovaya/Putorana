@@ -4,7 +4,7 @@
     <link href="http://www.garmin.com">
       <text>Garmin International</text>
     </link>
-    <time>2023-05-08T12:36:58Z</time>
+    <time>2023-05-08T16:10:29Z</time>
     <bounds maxlat="68.533027740195394" maxlon="94.294270277023315" minlat="66.939981579780579" minlon="86.529275178909302" />
   </metadata>
 
@@ -84,7 +84,7 @@
 
   <wpt lat="67.513520764186978" lon="88.223106013610959">
     <time>2023-05-05T04:55:44Z</time>
-    <name>05.08.2023 Стоянка 6 на реке Горбиачин ПолуДневка Озера</name>
+    <name>05.08.2023 Стоянка 7 на реке Горбиачин ПолуДневка Озера</name>
     <sym>Flag, Blue</sym>
     <type>user</type>
     <extensions>
@@ -102,7 +102,7 @@
 
   <wpt lat="67.516442108899355" lon="87.764820763841271">
     <time>2023-03-01T05:40:41Z</time>
-    <name>06.08.2023 Стоянка 7 на реке Горбиачин</name>
+    <name>06.08.2023 Стоянка 8 на реке Горбиачин</name>
     <sym>Flag, Blue</sym>
     <type>user</type>
     <extensions>
@@ -1455,7 +1455,565 @@
   </wpt>
 
   <rte>
-    <name>01.08.2023</name>
+    <name>001_24.07.2023_Пешка</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+      <tmd:TripMetaData>
+        <tmd:TripName>Путорана</tmd:TripName>
+        <tmd:Date>2023-07-23T21:00:00Z</tmd:Date>
+        <tmd:DayNumber>7</tmd:DayNumber>
+      </tmd:TripMetaData>
+    </extensions>
+    <rtept lat="67.485722182318568" lon="91.093694446608424">
+      <time>2023-02-28T12:43:07Z</time>
+      <name>22.07.2023 Стоянка 1 пешка Горбиачин</name>
+      <cmt>N67° 29' 08.6" E91° 05' 37.3"</cmt>
+      <desc>N67° 29' 08.6" E91° 05' 37.3"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.512055523693562" lon="91.021694485098124">
+      <time>2023-02-27T20:46:25Z</time>
+      <name>Перекус 1 в 1 день пешки</name>
+      <cmt>N67° 30' 43.4" E91° 01' 18.1"</cmt>
+      <desc>N67° 30' 43.4" E91° 01' 18.1"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.541555548086762" lon="90.922694485634565">
+      <time>2023-02-27T20:53:32Z</time>
+      <name>Перекус 2 1 день пешки</name>
+      <cmt>N67° 32' 29.6" E90° 55' 21.7"</cmt>
+      <desc>N67° 32' 29.6" E90° 55' 21.7"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.553027775138617" lon="90.887055555358529">
+      <time>2023-02-28T13:08:34Z</time>
+      <name>24-25.07.2023 Стоянка 2 пешка Горбиачин</name>
+      <cmt>N67° 33' 10.9" E90° 53' 13.4"</cmt>
+      <desc>N67° 33' 10.9" E90° 53' 13.4"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>002_25.07.2023_Пешка</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+      <tmd:TripMetaData>
+        <tmd:TripName>Путорана</tmd:TripName>
+        <tmd:Date>2023-07-24T21:00:00Z</tmd:Date>
+        <tmd:DayNumber>8</tmd:DayNumber>
+      </tmd:TripMetaData>
+    </extensions>
+    <rtept lat="67.553027775138617" lon="90.887055555358529">
+      <time>2023-02-28T13:08:34Z</time>
+      <name>24-25.07.2023 Стоянка 2 пешка Горбиачин</name>
+      <cmt>N67° 33' 10.9" E90° 53' 13.4"</cmt>
+      <desc>N67° 33' 10.9" E90° 53' 13.4"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.541555548086762" lon="90.922694485634565">
+      <time>2023-02-27T20:53:32Z</time>
+      <name>Перекус 2 1 день пешки</name>
+      <cmt>N67° 32' 29.6" E90° 55' 21.7"</cmt>
+      <desc>N67° 32' 29.6" E90° 55' 21.7"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.485722182318568" lon="91.093694446608424">
+      <time>2023-02-28T12:43:07Z</time>
+      <name>22.07.2023 Стоянка 1 пешка Горбиачин</name>
+      <cmt>N67° 29' 08.6" E91° 05' 37.3"</cmt>
+      <desc>N67° 29' 08.6" E91° 05' 37.3"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.541555548086762" lon="90.922694485634565">
+      <time>2023-02-27T20:53:32Z</time>
+      <name>Перекус 2 1 день пешки</name>
+      <cmt>N67° 32' 29.6" E90° 55' 21.7"</cmt>
+      <desc>N67° 32' 29.6" E90° 55' 21.7"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.553027775138617" lon="90.887055555358529">
+      <time>2023-02-28T13:08:34Z</time>
+      <name>24-25.07.2023 Стоянка 2 пешка Горбиачин</name>
+      <cmt>N67° 33' 10.9" E90° 53' 13.4"</cmt>
+      <desc>N67° 33' 10.9" E90° 53' 13.4"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>003_26.07.2023_Пешка</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+      <tmd:TripMetaData>
+        <tmd:TripName>Поездка в ИГАРКА</tmd:TripName>
+        <tmd:Date>2023-07-25T21:00:00Z</tmd:Date>
+        <tmd:DayNumber>9</tmd:DayNumber>
+      </tmd:TripMetaData>
+    </extensions>
+    <rtept lat="67.553027775138617" lon="90.887055555358529">
+      <time>2023-02-28T13:08:34Z</time>
+      <name>24-25.07.2023 Стоянка 2 пешка Горбиачин</name>
+      <cmt>N67° 33' 10.9" E90° 53' 13.4"</cmt>
+      <desc>N67° 33' 10.9" E90° 53' 13.4"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.55425002425909" lon="90.870472211390734">
+      <time>2023-02-27T20:59:50Z</time>
+      <name>Начало тропы</name>
+      <cmt>N67° 33' 15.3" E90° 52' 13.7"</cmt>
+      <desc>N67° 33' 15.3" E90° 52' 13.7"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.558361096307635" lon="90.861694430932403">
+      <time>2023-02-27T21:03:08Z</time>
+      <name>Конец тропы</name>
+      <cmt>N67° 33' 30.1" E90° 51' 42.1"</cmt>
+      <desc>N67° 33' 30.1" E90° 51' 42.1"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.559305569157004" lon="90.822277776896954">
+      <time>2023-02-27T21:18:40Z</time>
+      <name>Брод через Унту</name>
+      <cmt>N67° 33' 33.5" E90° 49' 20.2"</cmt>
+      <desc>N67° 33' 33.5" E90° 49' 20.2"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.56911113858223" lon="90.802805526182055">
+      <time>2023-02-27T21:19:48Z</time>
+      <name>Начало Берёзовой рощи</name>
+      <cmt>N67° 34' 08.8" E90° 48' 10.1"</cmt>
+      <desc>N67° 34' 08.8" E90° 48' 10.1"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.573083322495222" lon="90.777416657656431">
+      <time>2023-02-27T21:21:36Z</time>
+      <name>Конец берёзовой рощи</name>
+      <cmt>N67° 34' 23.1" E90° 46' 38.7"</cmt>
+      <desc>N67° 34' 23.1" E90° 46' 38.7"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.573222210630774" lon="90.762694431468844">
+      <time>2023-02-27T21:22:44Z</time>
+      <name>Начало сухого ручья</name>
+      <cmt>N67° 34' 23.6" E90° 45' 45.7"</cmt>
+      <desc>N67° 34' 23.6" E90° 45' 45.7"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.592972237616777" lon="90.690055517479777">
+      <time>2023-02-27T21:24:34Z</time>
+      <name>Брод через Сыптыр</name>
+      <cmt>N67° 35' 34.7" E90° 41' 24.2"</cmt>
+      <desc>N67° 35' 34.7" E90° 41' 24.2"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.611249983310699" lon="90.66200003027916">
+      <time>2023-02-27T21:25:36Z</time>
+      <name>26-27.07.2023 Стапель на Купчаке</name>
+      <cmt>N67° 36' 40.5" E90° 39' 43.2"</cmt>
+      <desc>N67° 36' 40.5" E90° 39' 43.2"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>004_27.07.2023_Пешка</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+      <tmd:TripMetaData>
+        <tmd:TripName>Путорана</tmd:TripName>
+        <tmd:Date>2023-07-26T21:00:00Z</tmd:Date>
+        <tmd:DayNumber>10</tmd:DayNumber>
+      </tmd:TripMetaData>
+    </extensions>
+    <rtept lat="67.611249983310699" lon="90.66200003027916">
+      <time>2023-02-27T21:25:36Z</time>
+      <name>26-27.07.2023 Стапель на Купчаке</name>
+      <cmt>N67° 36' 40.5" E90° 39' 43.2"</cmt>
+      <desc>N67° 36' 40.5" E90° 39' 43.2"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.553027775138617" lon="90.887055555358529">
+      <time>2023-02-28T13:08:34Z</time>
+      <name>24-25.07.2023 Стоянка 2 пешка Горбиачин</name>
+      <cmt>N67° 33' 10.9" E90° 53' 13.4"</cmt>
+      <desc>N67° 33' 10.9" E90° 53' 13.4"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.611249983310699" lon="90.66200003027916">
+      <time>2023-02-27T21:25:36Z</time>
+      <name>26-27.07.2023 Стапель на Купчаке</name>
+      <cmt>N67° 36' 40.5" E90° 39' 43.2"</cmt>
+      <desc>N67° 36' 40.5" E90° 39' 43.2"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>005_28.07.2023_Стапель</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+      <tmd:TripMetaData>
+        <tmd:TripName>Поездка в ИГАРКА</tmd:TripName>
+        <tmd:Date>2023-07-27T21:00:00Z</tmd:Date>
+        <tmd:DayNumber>11</tmd:DayNumber>
+      </tmd:TripMetaData>
+    </extensions>
+    <rtept lat="67.611249983310699" lon="90.66200003027916">
+      <time>2023-02-27T21:25:36Z</time>
+      <name>26-27.07.2023 Стапель на Купчаке</name>
+      <cmt>N67° 36' 40.5" E90° 39' 43.2"</cmt>
+      <desc>N67° 36' 40.5" E90° 39' 43.2"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.651846893131733" lon="90.521297631785274">
+      <time>2023-02-28T14:19:39Z</time>
+      <name>28.07.2023 Стоянка на оз Горбиачин</name>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>006_29.07.2023_1 стоянка Горбиачин</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+      <tmd:TripMetaData>
+        <tmd:TripName>Поездка в ИГАРКА</tmd:TripName>
+        <tmd:Date>2023-07-28T21:00:00Z</tmd:Date>
+        <tmd:DayNumber>12</tmd:DayNumber>
+      </tmd:TripMetaData>
+    </extensions>
+    <rtept lat="67.651846893131733" lon="90.521297631785274">
+      <time>2023-02-28T14:19:39Z</time>
+      <name>28.07.2023 Стоянка на оз Горбиачин</name>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.649305583909154" lon="90.334194442257285">
+      <time>2023-05-04T17:20:14Z</time>
+      <name>МЧС Стоянка 14 августа</name>
+      <cmt>N67° 38' 57.5" E90° 20' 03.1"</cmt>
+      <desc>N67° 38' 57.5" E90° 20' 03.1"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.667150907218456" lon="90.139420302584767">
+      <time>2023-02-28T15:17:00Z</time>
+      <name>29-30.07.2023 Стоянка 1 на Горбиачине Дневка ХАТАР</name>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>007_30.07.2023 Дневка</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+      <tmd:TripMetaData>
+        <tmd:TripName>Поездка в ИГАРКА</tmd:TripName>
+        <tmd:Date>2023-07-29T21:00:00Z</tmd:Date>
+        <tmd:DayNumber>13</tmd:DayNumber>
+      </tmd:TripMetaData>
+    </extensions>
+    <rtept lat="67.667150907218456" lon="90.139420302584767">
+      <time>2023-02-28T15:17:00Z</time>
+      <name>29-30.07.2023 Стоянка 1 на Горбиачине Дневка ХАТАР</name>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>008_31.07.2023 2 стоянка Горбиачин</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+      <tmd:TripMetaData>
+        <tmd:TripName>Поездка в ИГАРКА</tmd:TripName>
+        <tmd:Date>2023-07-30T21:00:00Z</tmd:Date>
+        <tmd:DayNumber>14</tmd:DayNumber>
+      </tmd:TripMetaData>
+    </extensions>
+    <rtept lat="67.667150907218456" lon="90.139420302584767">
+      <time>2023-02-28T15:17:00Z</time>
+      <name>29-30.07.2023 Стоянка 1 на Горбиачине Дневка ХАТАР</name>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.689916659146547" lon="89.857027782127261">
+      <time>2023-02-27T21:47:53Z</time>
+      <name>Порог «Яма Кильмагира»</name>
+      <cmt>N67° 41' 23.7" E89° 51' 25.3"</cmt>
+      <desc>N67° 41' 23.7" E89° 51' 25.3"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.694669701159" lon="89.804443912580609">
+      <time>2023-05-08T10:38:56Z</time>
+      <name>31.07.2023 Стоянка 2 на реке Горбиачине ХОРАЛ</name>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>009_01.08.2023 3  стоянка Горбиачин</name>
     <extensions>
       <gpxx:RouteExtension>
         <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
@@ -1511,7 +2069,7 @@
   </rte>
 
   <rte>
-    <name>02.08.2023</name>
+    <name>010_02.08.2023 4 стоянка Горбиачин</name>
     <extensions>
       <gpxx:RouteExtension>
         <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
@@ -1582,7 +2140,190 @@
   </rte>
 
   <rte>
-    <name>06.08.2023</name>
+    <name>011_ 03.08.2023 5 стоянка</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+      <trp:Trip>
+        <trp:TransportationMode>Hiking</trp:TransportationMode>
+      </trp:Trip>
+      <tmd:TripMetaData>
+        <tmd:TripName>Путорана</tmd:TripName>
+        <tmd:Date>2023-08-02T21:00:00Z</tmd:Date>
+        <tmd:DayNumber>17</tmd:DayNumber>
+      </tmd:TripMetaData>
+    </extensions>
+    <rtept lat="67.546749981120229" lon="89.074000027030706">
+      <time>2023-02-27T21:51:47Z</time>
+      <name>02.08.2023 Стоянка 4 на реке Горбиачин МЧС Стоянка 16 августа)</name>
+      <cmt>N67° 32' 48.3" E89° 04' 26.4"</cmt>
+      <desc>N67° 32' 48.3" E89° 04' 26.4"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.508861096575856" lon="88.991555543616414">
+      <time>2023-02-27T21:52:30Z</time>
+      <name>Порог «Желоб»</name>
+      <cmt>N67° 30' 31.9" E88° 59' 29.6"</cmt>
+      <desc>N67° 30' 31.9" E88° 59' 29.6"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.499012192711234" lon="88.790204543620348">
+      <time>2023-05-08T11:29:30Z</time>
+      <name>03.08.2023 Стоянка 5 на реке Горбиачин ОСТРОВНОЙ  Водопады Баня Полудневка</name>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>012_04.08.2023 6 стоянка Горбиачин</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+      <trp:Trip>
+        <trp:TransportationMode>Hiking</trp:TransportationMode>
+      </trp:Trip>
+      <tmd:TripMetaData>
+        <tmd:TripName>Путорана</tmd:TripName>
+        <tmd:Date>2023-08-03T21:00:00Z</tmd:Date>
+        <tmd:DayNumber>18</tmd:DayNumber>
+      </tmd:TripMetaData>
+    </extensions>
+    <rtept lat="67.499012192711234" lon="88.790204543620348">
+      <time>2023-05-08T11:29:30Z</time>
+      <name>03.08.2023 Стоянка 5 на реке Горбиачин ОСТРОВНОЙ  Водопады Баня Полудневка</name>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.520388895645738" lon="88.646722203120589">
+      <time>2023-02-28T15:40:21Z</time>
+      <name>Изба с баней</name>
+      <cmt>N67° 31' 13.4" E88° 38' 48.2"</cmt>
+      <desc>N67° 31' 13.4" E88° 38' 48.2"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.516055535525084" lon="88.529388885945082">
+      <time>2023-02-28T15:43:10Z</time>
+      <name>Порог «Средний водопад»</name>
+      <cmt>N67° 30' 57.8" E88° 31' 45.8"</cmt>
+      <desc>N67° 30' 57.8" E88° 31' 45.8"</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.533895410597324" lon="88.423938592895865">
+      <time>2023-05-08T11:38:47Z</time>
+      <name>04.08.2023 Стоянка 6 на реке Горбиачин ВЫХОДНОЙ(МЧС 17(авг)</name>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>013_ 05.08.2023 7 стоянка Горбиачин</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+      <tmd:TripMetaData>
+        <tmd:TripName>Поездка в ИГАРКА</tmd:TripName>
+        <tmd:Date>2023-08-04T21:00:00Z</tmd:Date>
+        <tmd:DayNumber>19</tmd:DayNumber>
+      </tmd:TripMetaData>
+    </extensions>
+    <rtept lat="67.533895410597324" lon="88.423938592895865">
+      <time>2023-05-08T11:38:47Z</time>
+      <name>04.08.2023 Стоянка 6 на реке Горбиачин ВЫХОДНОЙ(МЧС 17(авг)</name>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="67.513520764186978" lon="88.223106013610959">
+      <time>2023-05-05T04:55:44Z</time>
+      <name>05.08.2023 Стоянка 7 на реке Горбиачин ПолуДневка Озера</name>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>014_06.08.2023 8 стоянка Горбиачин</name>
     <extensions>
       <gpxx:RouteExtension>
         <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
@@ -1596,7 +2337,7 @@
     </extensions>
     <rtept lat="67.513520764186978" lon="88.223106013610959">
       <time>2023-05-05T04:55:44Z</time>
-      <name>05.08.2023 Стоянка 6 на реке Горбиачин ПолуДневка Озера</name>
+      <name>05.08.2023 Стоянка 7 на реке Горбиачин ПолуДневка Озера</name>
       <sym>Flag, Blue</sym>
       <extensions>
         <trp:ViaPoint>
@@ -1680,7 +2421,7 @@
     </rtept>
     <rtept lat="67.516442108899355" lon="87.764820763841271">
       <time>2023-03-01T05:40:41Z</time>
-      <name>06.08.2023 Стоянка 7 на реке Горбиачин</name>
+      <name>06.08.2023 Стоянка 8 на реке Горбиачин</name>
       <sym>Flag, Blue</sym>
       <extensions>
         <trp:ViaPoint>
@@ -1694,7 +2435,7 @@
   </rte>
 
   <rte>
-    <name>07.08.2023</name>
+    <name>015_07.08.2023 1 Стоянка ХантВод</name>
     <extensions>
       <gpxx:RouteExtension>
         <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
@@ -1708,7 +2449,7 @@
     </extensions>
     <rtept lat="67.516442108899355" lon="87.764820763841271">
       <time>2023-03-01T05:40:41Z</time>
-      <name>06.08.2023 Стоянка 7 на реке Горбиачин</name>
+      <name>06.08.2023 Стоянка 8 на реке Горбиачин</name>
       <sym>Flag, Blue</sym>
       <extensions>
         <trp:ViaPoint>
@@ -1752,7 +2493,7 @@
   </rte>
 
   <rte>
-    <name>08.08.2023</name>
+    <name>016_08.08.2023 2 Стоянка ХантВод</name>
     <extensions>
       <gpxx:RouteExtension>
         <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
@@ -1842,7 +2583,7 @@
   </rte>
 
   <rte>
-    <name>09.08.2023</name>
+    <name>017_09.08.2023 Пешка Черная</name>
     <extensions>
       <gpxx:RouteExtension>
         <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
@@ -1977,7 +2718,7 @@
   </rte>
 
   <rte>
-    <name>10.08.2023</name>
+    <name>018_10.08.2023 Пешка Черная</name>
     <extensions>
       <gpxx:RouteExtension>
         <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
@@ -2037,7 +2778,7 @@
   </rte>
 
   <rte>
-    <name>11.08.2023</name>
+    <name>019_11.08.2023 СтапельЧерная_Озеро</name>
     <extensions>
       <gpxx:RouteExtension>
         <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
@@ -2095,7 +2836,7 @@
   </rte>
 
   <rte>
-    <name>12.08.2023</name>
+    <name>020_12.08.2023 ПОРОГИ Черная</name>
     <extensions>
       <gpxx:RouteExtension>
         <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
@@ -2273,7 +3014,7 @@
   </rte>
 
   <rte>
-    <name>13.08.2023</name>
+    <name>021_13.08.2023 Антистапель Черная</name>
     <extensions>
       <gpxx:RouteExtension>
         <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
@@ -2507,747 +3248,6 @@
       <extensions>
         <trp:ViaPoint>
           <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-  </rte>
-
-  <rte>
-    <name>24.07.2023</name>
-    <extensions>
-      <gpxx:RouteExtension>
-        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
-        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
-      </gpxx:RouteExtension>
-      <tmd:TripMetaData>
-        <tmd:TripName>Путорана</tmd:TripName>
-        <tmd:Date>2023-07-23T21:00:00Z</tmd:Date>
-        <tmd:DayNumber>7</tmd:DayNumber>
-      </tmd:TripMetaData>
-    </extensions>
-    <rtept lat="67.485722182318568" lon="91.093694446608424">
-      <time>2023-02-28T12:43:07Z</time>
-      <name>22.07.2023 Стоянка 1 пешка Горбиачин</name>
-      <cmt>N67° 29' 08.6" E91° 05' 37.3"</cmt>
-      <desc>N67° 29' 08.6" E91° 05' 37.3"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.512055523693562" lon="91.021694485098124">
-      <time>2023-02-27T20:46:25Z</time>
-      <name>Перекус 1 в 1 день пешки</name>
-      <cmt>N67° 30' 43.4" E91° 01' 18.1"</cmt>
-      <desc>N67° 30' 43.4" E91° 01' 18.1"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.541555548086762" lon="90.922694485634565">
-      <time>2023-02-27T20:53:32Z</time>
-      <name>Перекус 2 1 день пешки</name>
-      <cmt>N67° 32' 29.6" E90° 55' 21.7"</cmt>
-      <desc>N67° 32' 29.6" E90° 55' 21.7"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.553027775138617" lon="90.887055555358529">
-      <time>2023-02-28T13:08:34Z</time>
-      <name>24-25.07.2023 Стоянка 2 пешка Горбиачин</name>
-      <cmt>N67° 33' 10.9" E90° 53' 13.4"</cmt>
-      <desc>N67° 33' 10.9" E90° 53' 13.4"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-  </rte>
-
-  <rte>
-    <name>25.07.2023</name>
-    <extensions>
-      <gpxx:RouteExtension>
-        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
-        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
-      </gpxx:RouteExtension>
-      <tmd:TripMetaData>
-        <tmd:TripName>Путорана</tmd:TripName>
-        <tmd:Date>2023-07-24T21:00:00Z</tmd:Date>
-        <tmd:DayNumber>8</tmd:DayNumber>
-      </tmd:TripMetaData>
-    </extensions>
-    <rtept lat="67.553027775138617" lon="90.887055555358529">
-      <time>2023-02-28T13:08:34Z</time>
-      <name>24-25.07.2023 Стоянка 2 пешка Горбиачин</name>
-      <cmt>N67° 33' 10.9" E90° 53' 13.4"</cmt>
-      <desc>N67° 33' 10.9" E90° 53' 13.4"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.541555548086762" lon="90.922694485634565">
-      <time>2023-02-27T20:53:32Z</time>
-      <name>Перекус 2 1 день пешки</name>
-      <cmt>N67° 32' 29.6" E90° 55' 21.7"</cmt>
-      <desc>N67° 32' 29.6" E90° 55' 21.7"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.485722182318568" lon="91.093694446608424">
-      <time>2023-02-28T12:43:07Z</time>
-      <name>22.07.2023 Стоянка 1 пешка Горбиачин</name>
-      <cmt>N67° 29' 08.6" E91° 05' 37.3"</cmt>
-      <desc>N67° 29' 08.6" E91° 05' 37.3"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.541555548086762" lon="90.922694485634565">
-      <time>2023-02-27T20:53:32Z</time>
-      <name>Перекус 2 1 день пешки</name>
-      <cmt>N67° 32' 29.6" E90° 55' 21.7"</cmt>
-      <desc>N67° 32' 29.6" E90° 55' 21.7"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.553027775138617" lon="90.887055555358529">
-      <time>2023-02-28T13:08:34Z</time>
-      <name>24-25.07.2023 Стоянка 2 пешка Горбиачин</name>
-      <cmt>N67° 33' 10.9" E90° 53' 13.4"</cmt>
-      <desc>N67° 33' 10.9" E90° 53' 13.4"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-  </rte>
-
-  <rte>
-    <name>26.07.2023</name>
-    <extensions>
-      <gpxx:RouteExtension>
-        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
-        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
-      </gpxx:RouteExtension>
-      <tmd:TripMetaData>
-        <tmd:TripName>Поездка в ИГАРКА</tmd:TripName>
-        <tmd:Date>2023-07-25T21:00:00Z</tmd:Date>
-        <tmd:DayNumber>9</tmd:DayNumber>
-      </tmd:TripMetaData>
-    </extensions>
-    <rtept lat="67.553027775138617" lon="90.887055555358529">
-      <time>2023-02-28T13:08:34Z</time>
-      <name>24-25.07.2023 Стоянка 2 пешка Горбиачин</name>
-      <cmt>N67° 33' 10.9" E90° 53' 13.4"</cmt>
-      <desc>N67° 33' 10.9" E90° 53' 13.4"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.55425002425909" lon="90.870472211390734">
-      <time>2023-02-27T20:59:50Z</time>
-      <name>Начало тропы</name>
-      <cmt>N67° 33' 15.3" E90° 52' 13.7"</cmt>
-      <desc>N67° 33' 15.3" E90° 52' 13.7"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.558361096307635" lon="90.861694430932403">
-      <time>2023-02-27T21:03:08Z</time>
-      <name>Конец тропы</name>
-      <cmt>N67° 33' 30.1" E90° 51' 42.1"</cmt>
-      <desc>N67° 33' 30.1" E90° 51' 42.1"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.559305569157004" lon="90.822277776896954">
-      <time>2023-02-27T21:18:40Z</time>
-      <name>Брод через Унту</name>
-      <cmt>N67° 33' 33.5" E90° 49' 20.2"</cmt>
-      <desc>N67° 33' 33.5" E90° 49' 20.2"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.56911113858223" lon="90.802805526182055">
-      <time>2023-02-27T21:19:48Z</time>
-      <name>Начало Берёзовой рощи</name>
-      <cmt>N67° 34' 08.8" E90° 48' 10.1"</cmt>
-      <desc>N67° 34' 08.8" E90° 48' 10.1"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.573083322495222" lon="90.777416657656431">
-      <time>2023-02-27T21:21:36Z</time>
-      <name>Конец берёзовой рощи</name>
-      <cmt>N67° 34' 23.1" E90° 46' 38.7"</cmt>
-      <desc>N67° 34' 23.1" E90° 46' 38.7"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.573222210630774" lon="90.762694431468844">
-      <time>2023-02-27T21:22:44Z</time>
-      <name>Начало сухого ручья</name>
-      <cmt>N67° 34' 23.6" E90° 45' 45.7"</cmt>
-      <desc>N67° 34' 23.6" E90° 45' 45.7"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.592972237616777" lon="90.690055517479777">
-      <time>2023-02-27T21:24:34Z</time>
-      <name>Брод через Сыптыр</name>
-      <cmt>N67° 35' 34.7" E90° 41' 24.2"</cmt>
-      <desc>N67° 35' 34.7" E90° 41' 24.2"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.611249983310699" lon="90.66200003027916">
-      <time>2023-02-27T21:25:36Z</time>
-      <name>26-27.07.2023 Стапель на Купчаке</name>
-      <cmt>N67° 36' 40.5" E90° 39' 43.2"</cmt>
-      <desc>N67° 36' 40.5" E90° 39' 43.2"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-  </rte>
-
-  <rte>
-    <name>27.07.2023</name>
-    <extensions>
-      <gpxx:RouteExtension>
-        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
-        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
-      </gpxx:RouteExtension>
-      <tmd:TripMetaData>
-        <tmd:TripName>Путорана</tmd:TripName>
-        <tmd:Date>2023-07-26T21:00:00Z</tmd:Date>
-        <tmd:DayNumber>10</tmd:DayNumber>
-      </tmd:TripMetaData>
-    </extensions>
-    <rtept lat="67.611249983310699" lon="90.66200003027916">
-      <time>2023-02-27T21:25:36Z</time>
-      <name>26-27.07.2023 Стапель на Купчаке</name>
-      <cmt>N67° 36' 40.5" E90° 39' 43.2"</cmt>
-      <desc>N67° 36' 40.5" E90° 39' 43.2"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.553027775138617" lon="90.887055555358529">
-      <time>2023-02-28T13:08:34Z</time>
-      <name>24-25.07.2023 Стоянка 2 пешка Горбиачин</name>
-      <cmt>N67° 33' 10.9" E90° 53' 13.4"</cmt>
-      <desc>N67° 33' 10.9" E90° 53' 13.4"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.611249983310699" lon="90.66200003027916">
-      <time>2023-02-27T21:25:36Z</time>
-      <name>26-27.07.2023 Стапель на Купчаке</name>
-      <cmt>N67° 36' 40.5" E90° 39' 43.2"</cmt>
-      <desc>N67° 36' 40.5" E90° 39' 43.2"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-  </rte>
-
-  <rte>
-    <name>28.07.2023</name>
-    <extensions>
-      <gpxx:RouteExtension>
-        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
-        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
-      </gpxx:RouteExtension>
-      <tmd:TripMetaData>
-        <tmd:TripName>Поездка в ИГАРКА</tmd:TripName>
-        <tmd:Date>2023-07-27T21:00:00Z</tmd:Date>
-        <tmd:DayNumber>11</tmd:DayNumber>
-      </tmd:TripMetaData>
-    </extensions>
-    <rtept lat="67.611249983310699" lon="90.66200003027916">
-      <time>2023-02-27T21:25:36Z</time>
-      <name>26-27.07.2023 Стапель на Купчаке</name>
-      <cmt>N67° 36' 40.5" E90° 39' 43.2"</cmt>
-      <desc>N67° 36' 40.5" E90° 39' 43.2"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.651846893131733" lon="90.521297631785274">
-      <time>2023-02-28T14:19:39Z</time>
-      <name>28.07.2023 Стоянка на оз Горбиачин</name>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-  </rte>
-
-  <rte>
-    <name>29.07.2023</name>
-    <extensions>
-      <gpxx:RouteExtension>
-        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
-        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
-      </gpxx:RouteExtension>
-      <tmd:TripMetaData>
-        <tmd:TripName>Поездка в ИГАРКА</tmd:TripName>
-        <tmd:Date>2023-07-28T21:00:00Z</tmd:Date>
-        <tmd:DayNumber>12</tmd:DayNumber>
-      </tmd:TripMetaData>
-    </extensions>
-    <rtept lat="67.651846893131733" lon="90.521297631785274">
-      <time>2023-02-28T14:19:39Z</time>
-      <name>28.07.2023 Стоянка на оз Горбиачин</name>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.649305583909154" lon="90.334194442257285">
-      <time>2023-05-04T17:20:14Z</time>
-      <name>МЧС Стоянка 14 августа</name>
-      <cmt>N67° 38' 57.5" E90° 20' 03.1"</cmt>
-      <desc>N67° 38' 57.5" E90° 20' 03.1"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.667150907218456" lon="90.139420302584767">
-      <time>2023-02-28T15:17:00Z</time>
-      <name>29-30.07.2023 Стоянка 1 на Горбиачине Дневка ХАТАР</name>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-  </rte>
-
-  <rte>
-    <name>30.07.2023 Дневка</name>
-    <extensions>
-      <gpxx:RouteExtension>
-        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
-        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
-      </gpxx:RouteExtension>
-      <tmd:TripMetaData>
-        <tmd:TripName>Поездка в ИГАРКА</tmd:TripName>
-        <tmd:Date>2023-07-29T21:00:00Z</tmd:Date>
-        <tmd:DayNumber>13</tmd:DayNumber>
-      </tmd:TripMetaData>
-    </extensions>
-    <rtept lat="67.667150907218456" lon="90.139420302584767">
-      <time>2023-02-28T15:17:00Z</time>
-      <name>29-30.07.2023 Стоянка 1 на Горбиачине Дневка ХАТАР</name>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-  </rte>
-
-  <rte>
-    <name>31.07.2023 1</name>
-    <extensions>
-      <gpxx:RouteExtension>
-        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
-        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
-      </gpxx:RouteExtension>
-      <tmd:TripMetaData>
-        <tmd:TripName>Поездка в ИГАРКА</tmd:TripName>
-        <tmd:Date>2023-07-30T21:00:00Z</tmd:Date>
-        <tmd:DayNumber>14</tmd:DayNumber>
-      </tmd:TripMetaData>
-    </extensions>
-    <rtept lat="67.667150907218456" lon="90.139420302584767">
-      <time>2023-02-28T15:17:00Z</time>
-      <name>29-30.07.2023 Стоянка 1 на Горбиачине Дневка ХАТАР</name>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.689916659146547" lon="89.857027782127261">
-      <time>2023-02-27T21:47:53Z</time>
-      <name>Порог «Яма Кильмагира»</name>
-      <cmt>N67° 41' 23.7" E89° 51' 25.3"</cmt>
-      <desc>N67° 41' 23.7" E89° 51' 25.3"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.694669701159" lon="89.804443912580609">
-      <time>2023-05-08T10:38:56Z</time>
-      <name>31.07.2023 Стоянка 2 на реке Горбиачине ХОРАЛ</name>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-  </rte>
-
-  <rte>
-    <name>Из Поездка в ИГАРКА в 05.08.2023</name>
-    <extensions>
-      <gpxx:RouteExtension>
-        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
-        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
-      </gpxx:RouteExtension>
-      <tmd:TripMetaData>
-        <tmd:TripName>Поездка в ИГАРКА</tmd:TripName>
-        <tmd:Date>2023-08-04T21:00:00Z</tmd:Date>
-        <tmd:DayNumber>19</tmd:DayNumber>
-      </tmd:TripMetaData>
-    </extensions>
-    <rtept lat="67.533895410597324" lon="88.423938592895865">
-      <time>2023-05-08T11:38:47Z</time>
-      <name>04.08.2023 Стоянка 6 на реке Горбиачин ВЫХОДНОЙ(МЧС 17(авг)</name>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.513520764186978" lon="88.223106013610959">
-      <time>2023-05-05T04:55:44Z</time>
-      <name>05.08.2023 Стоянка 6 на реке Горбиачин ПолуДневка Озера</name>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>Direct</trp:CalculationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-  </rte>
-
-  <rte>
-    <name>Из Путорана в 03.08.2023</name>
-    <extensions>
-      <gpxx:RouteExtension>
-        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
-        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
-      </gpxx:RouteExtension>
-      <trp:Trip>
-        <trp:TransportationMode>Hiking</trp:TransportationMode>
-      </trp:Trip>
-      <tmd:TripMetaData>
-        <tmd:TripName>Путорана</tmd:TripName>
-        <tmd:Date>2023-08-02T21:00:00Z</tmd:Date>
-        <tmd:DayNumber>17</tmd:DayNumber>
-      </tmd:TripMetaData>
-    </extensions>
-    <rtept lat="67.546749981120229" lon="89.074000027030706">
-      <time>2023-02-27T21:51:47Z</time>
-      <name>02.08.2023 Стоянка 4 на реке Горбиачин МЧС Стоянка 16 августа)</name>
-      <cmt>N67° 32' 48.3" E89° 04' 26.4"</cmt>
-      <desc>N67° 32' 48.3" E89° 04' 26.4"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
-          <trp:ElevationMode>Standard</trp:ElevationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.508861096575856" lon="88.991555543616414">
-      <time>2023-02-27T21:52:30Z</time>
-      <name>Порог «Желоб»</name>
-      <cmt>N67° 30' 31.9" E88° 59' 29.6"</cmt>
-      <desc>N67° 30' 31.9" E88° 59' 29.6"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
-          <trp:ElevationMode>Standard</trp:ElevationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.499012192711234" lon="88.790204543620348">
-      <time>2023-05-08T11:29:30Z</time>
-      <name>03.08.2023 Стоянка 5 на реке Горбиачин ОСТРОВНОЙ  Водопады Баня Полудневка</name>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
-          <trp:ElevationMode>Standard</trp:ElevationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-  </rte>
-
-  <rte>
-    <name>Из Путорана в 04.08.2023</name>
-    <extensions>
-      <gpxx:RouteExtension>
-        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
-        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
-      </gpxx:RouteExtension>
-      <trp:Trip>
-        <trp:TransportationMode>Hiking</trp:TransportationMode>
-      </trp:Trip>
-      <tmd:TripMetaData>
-        <tmd:TripName>Путорана</tmd:TripName>
-        <tmd:Date>2023-08-03T21:00:00Z</tmd:Date>
-        <tmd:DayNumber>18</tmd:DayNumber>
-      </tmd:TripMetaData>
-    </extensions>
-    <rtept lat="67.499012192711234" lon="88.790204543620348">
-      <time>2023-05-08T11:29:30Z</time>
-      <name>03.08.2023 Стоянка 5 на реке Горбиачин ОСТРОВНОЙ  Водопады Баня Полудневка</name>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
-          <trp:ElevationMode>Standard</trp:ElevationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.520388895645738" lon="88.646722203120589">
-      <time>2023-02-28T15:40:21Z</time>
-      <name>Изба с баней</name>
-      <cmt>N67° 31' 13.4" E88° 38' 48.2"</cmt>
-      <desc>N67° 31' 13.4" E88° 38' 48.2"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
-          <trp:ElevationMode>Standard</trp:ElevationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.516055535525084" lon="88.529388885945082">
-      <time>2023-02-28T15:43:10Z</time>
-      <name>Порог «Средний водопад»</name>
-      <cmt>N67° 30' 57.8" E88° 31' 45.8"</cmt>
-      <desc>N67° 30' 57.8" E88° 31' 45.8"</desc>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
-          <trp:ElevationMode>Standard</trp:ElevationMode>
-        </trp:ViaPoint>
-        <gpxx:RoutePointExtension>
-          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-        </gpxx:RoutePointExtension>
-      </extensions>
-    </rtept>
-    <rtept lat="67.533895410597324" lon="88.423938592895865">
-      <time>2023-05-08T11:38:47Z</time>
-      <name>04.08.2023 Стоянка 6 на реке Горбиачин ВЫХОДНОЙ(МЧС 17(авг)</name>
-      <sym>Flag, Blue</sym>
-      <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
-          <trp:ElevationMode>Standard</trp:ElevationMode>
         </trp:ViaPoint>
         <gpxx:RoutePointExtension>
           <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
