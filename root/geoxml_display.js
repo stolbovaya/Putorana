@@ -5,7 +5,7 @@ function init() {
             center: [67.499558, 88.781025],// 
             zoom: 10,
             controls: ['zoomControl']
-        }),
+        });
 
 	ymaps.geoXml.load('trek.gpx').then(function (res) {
 	    myMap.geoObjects.add(res.geoObjects);
