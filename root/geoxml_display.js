@@ -6,9 +6,7 @@ function init() {
             zoom: 10,
             controls: ['zoomControl']
         }),
-        gpxButton = $('.load-gpx'),
-        kmlButton = $('.load-kml'),
-        kmlFlightsButton = $('.load-kml-flights');
+        gpxButton = $('.load-gpx');
 
     // Отключение кеширования атрибута disabled в Firefox.
     gpxButton.get(0).disabled = false;
@@ -20,26 +18,6 @@ function init() {
     gpxButton.click(function (e) {
         ymaps.geoXml.load('trek.gpx')
             .then(onGeoXmlLoad);
-        e.target.disabled = true;
-    });
-    kmlButton.click(function (e) {
-        ymaps.geoXml.load('geoObjects.kml')
-            .then(onGeoXmlLoad);
-        e.target.disabled = true;
-    });
-    kmlFlightsButton.click(function (e) {
-        ymaps.geoXml.load('http://openflights.org/demo/openflights-sample.kml')
-            .then(function (res) {
-                res.geoObjects.each(function (obj) {
-                    obj.options.set({preset: 'islands#blackCircleIcon'});
-                    if (!obj.geometry) {
-                        obj.each(function (obj) {
-                            obj.options.set({strokeColor: "9090e8"});
-                        });
-                    }
-                });
-                onGeoXmlLoad(res);
-            });
         e.target.disabled = true;
     });
 
