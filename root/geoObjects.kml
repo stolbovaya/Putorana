@@ -1,2 +1,2680 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2"><Document><Style id="id1479670621351256661"><LineStyle><color>e61ed2ff</color><width>5</width></LineStyle></Style><Style id="id1479670805521994450"><LineStyle><color>4d4345ed</color><width>25</width></LineStyle></Style><Style id="id1479670607472502170"><LineStyle><color>e679470e</color><width>5</width></LineStyle></Style><Style id="id1479670665981467627"><LineStyle><color>e603ad1b</color><width>5</width></LineStyle><PolyStyle><color>00595959</color><fill>1</fill><outline>1</outline></PolyStyle></Style><Style id="id1479670660383732903"><LineStyle><color>00b3b3b3</color><width>5</width></LineStyle><PolyStyle><color>99c97b17</color><fill>1</fill><outline>1</outline></PolyStyle></Style><Folder><name>паыпывапываы</name><description/><Placemark><name>Метка 3</name><description/><Style><IconStyle><Icon><href>http://api-maps.yandex.ru/i/0.4/micro/pmyws.png</href></Icon><hotSpot x="7" y="28" xunits="pixels" yunits="insetPixels"/></IconStyle></Style><Point><coordinates>29.702651,59.994675</coordinates></Point></Placemark><Placemark><name>Метка 1</name><description/><Style><IconStyle><Icon><href>http://api-maps.yandex.ru/i/0.4/micro/pmnts.png</href></Icon><hotSpot x="7" y="28" xunits="pixels" yunits="insetPixels"/></IconStyle></Style><Point><coordinates>29.703743914062052,60.02605913928453</coordinates></Point></Placemark><Placemark><name>Метка 2</name><description/><Style><IconStyle><Icon><href>http://api-maps.yandex.ru/i/0.4/micro/pmvvs.png</href></Icon><hotSpot x="7" y="28" xunits="pixels" yunits="insetPixels"/></IconStyle></Style><Point><coordinates>29.70366844335898,60.00960015860555</coordinates></Point></Placemark><Placemark><name>Линия 3</name><description/><styleUrl>#id1479670621351256661</styleUrl><LineString><coordinates>29.68578521679677,60.04310957752108 29.8141879267577,60.04379647322176</coordinates></LineString></Placemark><Placemark><name>Линия 2</name><description/><styleUrl>#id1479670805521994450</styleUrl><LineString><coordinates>29.68441192578115,60.05512818264542 29.81350128124989,60.0554715068608</coordinates></LineString></Placemark><Placemark><name>Линия 1</name><description/><styleUrl>#id1479670607472502170</styleUrl><LineString><coordinates>29.68441192578115,60.066799195951944 29.814874572265513,60.066799195951944</coordinates></LineString></Placemark><Placemark><name>Многоугольник 1</name><description/><styleUrl>#id1479670665981467627</styleUrl><Polygon><outerBoundaryIs><LinearRing><coordinates>29.72767059277334,60.03761389576303 29.814874572265513,60.03830090616017 29.805948180663965,59.98501508212242 29.72767059277334,60.03761389576303</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Многоугольник 2</name><description/><styleUrl>#id1479670660383732903</styleUrl><Polygon><outerBoundaryIs><LinearRing><coordinates>29.794275207031145,59.984326959921916 29.716684264648332,59.98535913782649 29.721490783203013,60.0328044214997 29.794275207031145,59.984326959921916</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark></Folder></Document></kml>
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="waypoints" id="waypoints">
+	<SimpleField name="ele" type="float"></SimpleField>
+	<SimpleField name="time" type="string"></SimpleField>
+	<SimpleField name="magvar" type="float"></SimpleField>
+	<SimpleField name="geoidheight" type="float"></SimpleField>
+	<SimpleField name="cmt" type="string"></SimpleField>
+	<SimpleField name="desc" type="string"></SimpleField>
+	<SimpleField name="src" type="string"></SimpleField>
+	<SimpleField name="link1_href" type="string"></SimpleField>
+	<SimpleField name="link1_text" type="string"></SimpleField>
+	<SimpleField name="link1_type" type="string"></SimpleField>
+	<SimpleField name="link2_href" type="string"></SimpleField>
+	<SimpleField name="link2_text" type="string"></SimpleField>
+	<SimpleField name="link2_type" type="string"></SimpleField>
+	<SimpleField name="sym" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="fix" type="string"></SimpleField>
+	<SimpleField name="sat" type="int"></SimpleField>
+	<SimpleField name="hdop" type="float"></SimpleField>
+	<SimpleField name="vdop" type="float"></SimpleField>
+	<SimpleField name="pdop" type="float"></SimpleField>
+	<SimpleField name="ageofdgpsdata" type="float"></SimpleField>
+	<SimpleField name="dgpsid" type="int"></SimpleField>
+	<SimpleField name="gpxx_WaypointExtension" type="string"></SimpleField>
+	<SimpleField name="wptx1_WaypointExtension" type="string"></SimpleField>
+	<SimpleField name="ctx_CreationTimeExtension" type="string"></SimpleField>
+</Schema>
+<Folder><name>waypoints</name>
+  <Placemark>
+	<name>1-ая остановка на островах</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/28 16:04:48+00</SimpleData>
+		<SimpleData name="cmt">N67° 38' 13.4&quot; E87° 34' 03.4&quot;</SimpleData>
+		<SimpleData name="desc">N67° 38' 13.4&quot; E87° 34' 03.4&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-28T16:04:48Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.5676110945642,67.637055516243</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2-ая остановка на островах</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/28 16:05:39+00</SimpleData>
+		<SimpleData name="cmt">N67° 37' 27.6&quot; E87° 29' 54.2&quot;</SimpleData>
+		<SimpleData name="desc">N67° 37' 27.6&quot; E87° 29' 54.2&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-28T16:05:39Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.4983888957649,67.6243332959712</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3-ая остановка на островах</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/28 16:06:17+00</SimpleData>
+		<SimpleData name="cmt">N67° 36' 25.1&quot; E87° 28' 35.9&quot;</SimpleData>
+		<SimpleData name="desc">N67° 36' 25.1&quot; E87° 28' 35.9&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-28T16:06:17Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.4766388628632,67.6069721952081</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Антистапель (пристань в Игарке)</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/03/01 07:12:30+00</SimpleData>
+		<SimpleData name="cmt">N67° 27' 35.7&quot; E86° 34' 09.1&quot;</SimpleData>
+		<SimpleData name="desc">N67° 27' 35.7&quot; E86° 34' 09.1&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-03-01T07:12:30Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.5691944118589,67.4599166493863</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>База на Курейки</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/28 05:40:08+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-28T05:40:08Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>91.5627953689545,67.5552918948233</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Большой Курейский водопад</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/28 05:47:46+00</SimpleData>
+		<SimpleData name="cmt">N68° 18' 24.5&quot; E94° 16' 53.3&quot;</SimpleData>
+		<SimpleData name="desc">N68° 18' 24.5&quot; E94° 16' 53.3&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-28T05:47:46Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>94.2814722005278,68.3068055380136</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Брод через ручей</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/03/01 06:26:48+00</SimpleData>
+		<SimpleData name="cmt">N67° 31' 40.8&quot; E87° 03' 29.6&quot;</SimpleData>
+		<SimpleData name="desc">N67° 31' 40.8&quot; E87° 03' 29.6&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-03-01T06:26:48Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.058222219348,67.5279999990016</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Брод через Сыптыр</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/27 21:24:34+00</SimpleData>
+		<SimpleData name="cmt">N67° 35' 34.7&quot; E90° 41' 24.2&quot;</SimpleData>
+		<SimpleData name="desc">N67° 35' 34.7&quot; E90° 41' 24.2&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-27T21:24:34Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.6900555174798,67.5929722376168</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Брод через Унту</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/27 21:18:40+00</SimpleData>
+		<SimpleData name="cmt">N67° 33' 33.5&quot; E90° 49' 20.2&quot;</SimpleData>
+		<SimpleData name="desc">N67° 33' 33.5&quot; E90° 49' 20.2&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-27T21:18:40Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.822277776897,67.559305569157</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Брод Черная</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/03/01 07:09:33+00</SimpleData>
+		<SimpleData name="cmt">N67° 22' 29.3&quot; E86° 47' 11.0&quot;</SimpleData>
+		<SimpleData name="desc">N67° 22' 29.3&quot; E86° 47' 11.0&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-03-01T07:09:33Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.7863888852298,67.374805547297</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Два брата</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/28 06:00:09+00</SimpleData>
+		<SimpleData name="cmt">N68° 28' 16.2&quot; E93° 10' 33.4&quot;</SimpleData>
+		<SimpleData name="desc">N68° 28' 16.2&quot; E93° 10' 33.4&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-28T06:00:09Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>93.1759444344789,68.4711666963995</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ИГАРКА</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/27 20:26:32+00</SimpleData>
+		<SimpleData name="cmt">ИГАРКА</SimpleData>
+		<SimpleData name="desc">ИГАРКА</SimpleData>
+		<SimpleData name="sym">City (Small)</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-27T20:26:32Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.5292751789093,67.455341219902</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ИГАРСКАЯ (ПРОТОКА)</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/05/04 06:37:17+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-05-04T06:37:17Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.6948855761439,67.4305023718625</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Изба на ЛБ</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/28 15:56:33+00</SimpleData>
+		<SimpleData name="cmt">N67° 30' 55.3&quot; E87° 45' 29.9&quot;</SimpleData>
+		<SimpleData name="desc">N67° 30' 55.3&quot; E87° 45' 29.9&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-28T15:56:33Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.7583055943251,67.5153610948473</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Изгиб Курейки</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/05/05 04:48:56+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-05-05T04:48:56Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.8943378478289,67.4497855268419</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Конец берёзовой рощи</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/27 21:21:36+00</SimpleData>
+		<SimpleData name="cmt">N67° 34' 23.1&quot; E90° 46' 38.7&quot;</SimpleData>
+		<SimpleData name="desc">N67° 34' 23.1&quot; E90° 46' 38.7&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-27T21:21:36Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.7774166576564,67.5730833224952</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Конец течения на реке (начало водохранилища)</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/28 15:58:20+00</SimpleData>
+		<SimpleData name="cmt">N67° 30' 38.5&quot; E87° 43' 04.7&quot;</SimpleData>
+		<SimpleData name="desc">N67° 30' 38.5&quot; E87° 43' 04.7&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-28T15:58:20Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.7179722115397,67.5106944702566</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Конец тропы</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/27 21:03:08+00</SimpleData>
+		<SimpleData name="cmt">N67° 33' 30.1&quot; E90° 51' 42.1&quot;</SimpleData>
+		<SimpleData name="desc">N67° 33' 30.1&quot; E90° 51' 42.1&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-27T21:03:08Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.8616944309324,67.5583610963076</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>место для рыбалки</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/05/04 13:26:33+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-05-04T13:26:33Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>94.284123647958,68.2945030834526</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Метеостанция</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/28 15:54:08+00</SimpleData>
+		<SimpleData name="cmt">N67° 29' 02.9&quot; E87° 50' 42.0&quot;</SimpleData>
+		<SimpleData name="desc">N67° 29' 02.9&quot; E87° 50' 42.0&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-28T15:54:08Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.8450000379235,67.4841389246285</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Наедь черника</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/28 12:34:29+00</SimpleData>
+		<SimpleData name="cmt">N68° 19' 53.7&quot; E94° 15' 52.2&quot;</SimpleData>
+		<SimpleData name="desc">N68° 19' 53.7&quot; E94° 15' 52.2&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-28T12:34:29Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>94.2645000200719,68.331583365798</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Начало 1-го болота</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/03/01 06:24:23+00</SimpleData>
+		<SimpleData name="cmt">N67° 31' 48.4&quot; E87° 04' 14.9&quot;</SimpleData>
+		<SimpleData name="desc">N67° 31' 48.4&quot; E87° 04' 14.9&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-03-01T06:24:23Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.0708055514842,67.5301111489534</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Начало 2-го болота</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/03/01 06:26:06+00</SimpleData>
+		<SimpleData name="cmt">N67° 31' 40.9&quot; E87° 03' 36.5&quot;</SimpleData>
+		<SimpleData name="desc">N67° 31' 40.9&quot; E87° 03' 36.5&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-03-01T06:26:06Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.0601389091462,67.5280277431011</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Начало Берёзовой рощи</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/27 21:19:48+00</SimpleData>
+		<SimpleData name="cmt">N67° 34' 08.8&quot; E90° 48' 10.1&quot;</SimpleData>
+		<SimpleData name="desc">N67° 34' 08.8&quot; E90° 48' 10.1&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-27T21:19:48Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.8028055261821,67.5691111385822</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Начало сухого ручья</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/27 21:22:44+00</SimpleData>
+		<SimpleData name="cmt">N67° 34' 23.6&quot; E90° 45' 45.7&quot;</SimpleData>
+		<SimpleData name="desc">N67° 34' 23.6&quot; E90° 45' 45.7&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-27T21:22:44Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.7626944314688,67.5732222106308</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Начало тропы</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/27 20:59:50+00</SimpleData>
+		<SimpleData name="cmt">N67° 33' 15.3&quot; E90° 52' 13.7&quot;</SimpleData>
+		<SimpleData name="desc">N67° 33' 15.3&quot; E90° 52' 13.7&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-27T20:59:50Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.8704722113907,67.5542500242591</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Непроход (скальное сужение)</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/05/04 06:40:22+00</SimpleData>
+		<SimpleData name="cmt">N67° 22' 36.3&quot; E86° 48' 19.2&quot;</SimpleData>
+		<SimpleData name="desc">N67° 22' 36.3&quot; E86° 48' 19.2&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-05-04T06:40:22Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.805333327502,67.3767499811947</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Неральский водопад</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/28 12:29:11+00</SimpleData>
+		<SimpleData name="cmt">N68° 31' 58.9&quot; E94° 11' 19.9&quot;</SimpleData>
+		<SimpleData name="desc">N68° 31' 58.9&quot; E94° 11' 19.9&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-28T12:29:11Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>94.1888611391187,68.5330277401954</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ОЛЕНИЙ</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/05/05 04:50:50+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-05-05T04:50:50Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.9513931274414,67.4883270263672</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Перекус 1 в 1 день пешки</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/27 20:46:25+00</SimpleData>
+		<SimpleData name="cmt">N67° 30' 43.4&quot; E91° 01' 18.1&quot;</SimpleData>
+		<SimpleData name="desc">N67° 30' 43.4&quot; E91° 01' 18.1&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-27T20:46:25Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>91.0216944850981,67.5120555236936</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Перекус 2 1 день пешки</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/27 20:53:32+00</SimpleData>
+		<SimpleData name="cmt">N67° 32' 29.6&quot; E90° 55' 21.7&quot;</SimpleData>
+		<SimpleData name="desc">N67° 32' 29.6&quot; E90° 55' 21.7&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-27T20:53:32Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.9226944856346,67.5415555480868</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Перекус пешка на Черную</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/03/01 06:23:33+00</SimpleData>
+		<SimpleData name="cmt">N67° 32' 09.4&quot; E87° 05' 29.0&quot;</SimpleData>
+		<SimpleData name="desc">N67° 32' 09.4&quot; E87° 05' 29.0&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-03-01T06:23:33Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.0913889072835,67.5359444506466</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Перешеек болот</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/03/01 06:20:49+00</SimpleData>
+		<SimpleData name="cmt">N67° 32' 16.8&quot; E87° 06' 44.8&quot;</SimpleData>
+		<SimpleData name="desc">N67° 32' 16.8&quot; E87° 06' 44.8&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-03-01T06:20:49Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.1124444156885,67.5380000285804</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ПОРОГ</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/05/04 13:27:43+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-05-04T13:27:43Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>94.2942702770233,68.2840579748154</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Порог «Верхний водопад»</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/27 21:50:55+00</SimpleData>
+		<SimpleData name="cmt">N67° 34' 24.9&quot; E89° 08' 20.7&quot;</SimpleData>
+		<SimpleData name="desc">N67° 34' 24.9&quot; E89° 08' 20.7&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-27T21:50:55Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>89.1390833258629,67.5735833030194</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Порог «Ворота»</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/03/01 07:01:57+00</SimpleData>
+		<SimpleData name="cmt">N67° 22' 42.1&quot; E86° 54' 15.3&quot;</SimpleData>
+		<SimpleData name="desc">N67° 22' 42.1&quot; E86° 54' 15.3&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-03-01T07:01:57Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.904250010848,67.3783611506224</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Порог «Желоб»</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/27 21:52:30+00</SimpleData>
+		<SimpleData name="cmt">N67° 30' 31.9&quot; E88° 59' 29.6&quot;</SimpleData>
+		<SimpleData name="desc">N67° 30' 31.9&quot; E88° 59' 29.6&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-27T21:52:30Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>88.9915555436164,67.5088610965759</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Порог «Наполеон» !!!</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/03/01 07:06:59+00</SimpleData>
+		<SimpleData name="cmt">N67° 22' 33.5&quot; E86° 48' 34.3&quot;</SimpleData>
+		<SimpleData name="desc">N67° 22' 33.5&quot; E86° 48' 34.3&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-03-01T07:06:59Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.8095277994871,67.3759722243994</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Порог «Нижний водопад»</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/28 15:48:05+00</SimpleData>
+		<SimpleData name="cmt">N67° 29' 46.2&quot; E88° 07' 07.6&quot;</SimpleData>
+		<SimpleData name="desc">N67° 29' 46.2&quot; E88° 07' 07.6&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-28T15:48:05Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>88.1187778059393,67.4961667042226</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Порог «Поворотный»</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/03/01 07:03:20+00</SimpleData>
+		<SimpleData name="cmt">N67° 22' 46.5&quot; E86° 53' 59.6&quot;</SimpleData>
+		<SimpleData name="desc">N67° 22' 46.5&quot; E86° 53' 59.6&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-03-01T07:03:20Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.8998889066279,67.3795833159238</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Порог «Посадский»</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/03/01 07:06:06+00</SimpleData>
+		<SimpleData name="cmt">N67° 22' 38.0&quot; E86° 49' 27.2&quot;</SimpleData>
+		<SimpleData name="desc">N67° 22' 38.0&quot; E86° 49' 27.2&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-03-01T07:06:06Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.8242221977562,67.3772222176194</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Порог «Рыбацкий»</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/03/01 07:01:12+00</SimpleData>
+		<SimpleData name="cmt">N67° 22' 49.8&quot; E86° 54' 31.1&quot;</SimpleData>
+		<SimpleData name="desc">N67° 22' 49.8&quot; E86° 54' 31.1&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-03-01T07:01:12Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.9086388591677,67.3804999608546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Порог «Солёный» !!!</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/03/01 07:05:17+00</SimpleData>
+		<SimpleData name="cmt">N67° 22' 30.2&quot; E86° 50' 10.7&quot;</SimpleData>
+		<SimpleData name="desc">N67° 22' 30.2&quot; E86° 50' 10.7&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-03-01T07:05:17Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.8363055493683,67.3750555794686</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Порог «Средний водопад»</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/28 15:43:10+00</SimpleData>
+		<SimpleData name="cmt">N67° 30' 57.8&quot; E88° 31' 45.8&quot;</SimpleData>
+		<SimpleData name="desc">N67° 30' 57.8&quot; E88° 31' 45.8&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-28T15:43:10Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>88.5293888859451,67.5160555355251</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Порог «Финишный»</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/03/01 07:10:14+00</SimpleData>
+		<SimpleData name="cmt">N67° 22' 53.5&quot; E86° 46' 16.8&quot;</SimpleData>
+		<SimpleData name="desc">N67° 22' 53.5&quot; E86° 46' 16.8&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-03-01T07:10:14Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.7713333107531,67.3815277498215</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Порог «Яма Кильмагира»</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/27 21:47:53+00</SimpleData>
+		<SimpleData name="cmt">N67° 41' 23.7&quot; E89° 51' 25.3&quot;</SimpleData>
+		<SimpleData name="desc">N67° 41' 23.7&quot; E89° 51' 25.3&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-27T21:47:53Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>89.8570277821273,67.6899166591465</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Рыбачья изба</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/27 21:44:26+00</SimpleData>
+		<SimpleData name="cmt">N67° 37' 58.9&quot; E90° 33' 50.7&quot;</SimpleData>
+		<SimpleData name="desc">N67° 37' 58.9&quot; E90° 33' 50.7&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-27T21:44:26Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.5640833079815,67.633027760312</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>СВЕТЛОГОРСК (ТУРУХАНСКИЙ)</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/27 20:26:32+00</SimpleData>
+		<SimpleData name="cmt">СВЕТЛОГОРСК (ТУРУХАНСКИЙ)</SimpleData>
+		<SimpleData name="desc">СВЕТЛОГОРСК (ТУРУХАНСКИЙ)</SimpleData>
+		<SimpleData name="sym">City (Small)</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-27T20:26:32Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>88.3663201332092,66.9399815797806</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Слияние р. Чёрной с ручьём Приток</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/03/01 06:57:41+00</SimpleData>
+		<SimpleData name="cmt">N67° 31' 32.1&quot; E87° 01' 17.4&quot;</SimpleData>
+		<SimpleData name="desc">N67° 31' 32.1&quot; E87° 01' 17.4&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-03-01T06:57:41Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.021500011906,67.5255833286792</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стапель на Купчаке</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/27 21:25:36+00</SimpleData>
+		<SimpleData name="cmt">N67° 36' 40.5&quot; E90° 39' 43.2&quot;</SimpleData>
+		<SimpleData name="desc">N67° 36' 40.5&quot; E90° 39' 43.2&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-27T21:25:36Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.6620000302792,67.6112499833107</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 0</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/28 12:27:35+00</SimpleData>
+		<SimpleData name="cmt">N68° 28' 19.0&quot; E94° 16' 04.9&quot;</SimpleData>
+		<SimpleData name="desc">N68° 28' 19.0&quot; E94° 16' 04.9&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-28T12:27:35Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>94.2680277954787,68.4719444531947</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 1 на Горбиачине Дневка</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/28 15:17:00+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-28T15:17:00Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.1394203025848,67.6671509072185</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 1 пешка Горбиачин</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/28 12:43:07+00</SimpleData>
+		<SimpleData name="cmt">N67° 29' 08.6&quot; E91° 05' 37.3&quot;</SimpleData>
+		<SimpleData name="desc">N67° 29' 08.6&quot; E91° 05' 37.3&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-28T12:43:07Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>91.0936944466084,67.4857221823186</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 13 августа</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/05/04 17:19:38+00</SimpleData>
+		<SimpleData name="cmt">N67° 38' 08.5&quot; E90° 34' 38.8&quot;</SimpleData>
+		<SimpleData name="desc">N67° 38' 08.5&quot; E90° 34' 38.8&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-05-04T17:19:38Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.5774444807321,67.635694462806</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 14 августа</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/05/04 17:20:14+00</SimpleData>
+		<SimpleData name="cmt">N67° 38' 57.5&quot; E90° 20' 03.1&quot;</SimpleData>
+		<SimpleData name="desc">N67° 38' 57.5&quot; E90° 20' 03.1&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-05-04T17:20:14Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.3341944422573,67.6493055839092</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 15 августа</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/05/04 17:21:00+00</SimpleData>
+		<SimpleData name="cmt">N67° 39' 55.5&quot; E89° 34' 42.9&quot;</SimpleData>
+		<SimpleData name="desc">N67° 39' 55.5&quot; E89° 34' 42.9&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-05-04T17:21:00Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>89.5785833057016,67.6654166914523</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 16 августа</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/05/04 17:21:39+00</SimpleData>
+		<SimpleData name="cmt">N67° 32' 48.3&quot; E89° 04' 26.4&quot;</SimpleData>
+		<SimpleData name="desc">N67° 32' 48.3&quot; E89° 04' 26.4&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-05-04T17:21:39Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>89.0740000270307,67.5467499811202</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 17 августа</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/05/04 17:22:16+00</SimpleData>
+		<SimpleData name="cmt">N67° 31' 49.5&quot; E88° 25' 22.2&quot;</SimpleData>
+		<SimpleData name="desc">N67° 31' 49.5&quot; E88° 25' 22.2&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-05-04T17:22:16Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>88.4228333551437,67.530416669324</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 18 августа</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/05/04 17:22:46+00</SimpleData>
+		<SimpleData name="cmt">N67° 29' 02.9&quot; E87° 50' 42.0&quot;</SimpleData>
+		<SimpleData name="desc">N67° 29' 02.9&quot; E87° 50' 42.0&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-05-04T17:22:46Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.8450000379235,67.4841389246285</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 19 августа</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/05/04 17:23:32+00</SimpleData>
+		<SimpleData name="cmt">N67° 37' 40.2&quot; E87° 38' 34.8&quot;</SimpleData>
+		<SimpleData name="desc">N67° 37' 40.2&quot; E87° 38' 34.8&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-05-04T17:23:32Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.6430000271648,67.6278333272785</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 2 на реке Горбиачине 2 км впадение р Верх Танка</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/05/04 14:07:57+00</SimpleData>
+		<SimpleData name="cmt">N67° 39' 55.5&quot; E89° 34' 42.9&quot;</SimpleData>
+		<SimpleData name="desc">N67° 39' 55.5&quot; E89° 34' 42.9&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-05-04T14:07:57Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>89.5785833057016,67.6654166914523</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 2 на реке Черная</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/03/01 07:10:52+00</SimpleData>
+		<SimpleData name="cmt">N67° 23' 36.3&quot; E86° 44' 44.9&quot;</SimpleData>
+		<SimpleData name="desc">N67° 23' 36.3&quot; E86° 44' 44.9&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-03-01T07:10:52Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.7458055540919,67.3934166412801</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 2 пешка Горбиачин</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/28 13:08:34+00</SimpleData>
+		<SimpleData name="cmt">N67° 33' 10.9&quot; E90° 53' 13.4&quot;</SimpleData>
+		<SimpleData name="desc">N67° 33' 10.9&quot; E90° 53' 13.4&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-28T13:08:34Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.8870555553585,67.5530277751386</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 20 августа</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/05/04 17:24:05+00</SimpleData>
+		<SimpleData name="cmt">N67° 32' 58.1&quot; E87° 12' 40.9&quot;</SimpleData>
+		<SimpleData name="desc">N67° 32' 58.1&quot; E87° 12' 40.9&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-05-04T17:24:05Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.2113610990345,67.5494722556323</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 3 на реке Горбиачин</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/28 15:28:54+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-28T15:28:54Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>89.2029066570103,67.6118302624673</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 4 на реке Горбиачин</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/27 21:51:47+00</SimpleData>
+		<SimpleData name="cmt">N67° 32' 48.3&quot; E89° 04' 26.4&quot;</SimpleData>
+		<SimpleData name="desc">N67° 32' 48.3&quot; E89° 04' 26.4&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-27T21:51:47Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>89.0740000270307,67.5467499811202</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 5 Изба с баней</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/28 15:40:21+00</SimpleData>
+		<SimpleData name="cmt">N67° 31' 13.4&quot; E88° 38' 48.2&quot;</SimpleData>
+		<SimpleData name="desc">N67° 31' 13.4&quot; E88° 38' 48.2&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-28T15:40:21Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>88.6467222031206,67.5203888956457</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 6 на реке Горбиачин!</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/05/05 04:55:44+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-05-05T04:55:44Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>88.223106013611,67.513520764187</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 7 на реке Горбиачин</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/03/01 05:40:41+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-03-01T05:40:41Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.7648207638413,67.5164421088994</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка на водопаде Курейский</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/28 05:42:51+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-28T05:42:51Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>94.2182092834264,68.3699842169881</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка на оз Горбиачин</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/28 14:19:39+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-28T14:19:39Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.5212976317853,67.6518468931317</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка на реке Черная 1</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/05/04 08:45:57+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-05-04T08:45:57Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.96223936975,67.4341869726777</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка на Хантайском водохранилище</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/28 16:02:53+00</SimpleData>
+		<SimpleData name="cmt">N67° 37' 40.2&quot; E87° 38' 34.8&quot;</SimpleData>
+		<SimpleData name="desc">N67° 37' 40.2&quot; E87° 38' 34.8&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-28T16:02:53Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.6430000271648,67.6278333272785</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка Стапель Черная</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/03/01 06:27:34+00</SimpleData>
+		<SimpleData name="cmt">N67° 31' 39.1&quot; E87° 01' 21.5&quot;</SimpleData>
+		<SimpleData name="desc">N67° 31' 39.1&quot; E87° 01' 21.5&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-03-01T06:27:34Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.0226388610899,67.5275277625769</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка Усть-Хантайское водохранилище 3</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/28 16:07:03+00</SimpleData>
+		<SimpleData name="cmt">N67° 32' 58.1&quot; E87° 12' 40.9&quot;</SimpleData>
+		<SimpleData name="desc">N67° 32' 58.1&quot; E87° 12' 40.9&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-28T16:07:03Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.2113610990345,67.5494722556323</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Тальниковый водопад</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/02/28 05:57:10+00</SimpleData>
+		<SimpleData name="cmt">N68° 26' 45.1&quot; E93° 17' 54.3&quot;</SimpleData>
+		<SimpleData name="desc">N68° 26' 45.1&quot; E93° 17' 54.3&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-02-28T05:57:10Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>93.2984166964889,68.4458611439914</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ягельник</name>
+	<ExtendedData><SchemaData schemaUrl="#waypoints">
+		<SimpleData name="time">2023/03/01 06:19:53+00</SimpleData>
+		<SimpleData name="cmt">N67° 32' 56.6&quot; E87° 09' 50.7&quot;</SimpleData>
+		<SimpleData name="desc">N67° 32' 56.6&quot; E87° 09' 50.7&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="type">user</SimpleData>
+		<SimpleData name="gpxx_WaypointExtension">&lt;gpxx:DisplayMode&gt;SymbolAndName&lt;/gpxx:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="wptx1_WaypointExtension">&lt;wptx1:DisplayMode&gt;SymbolAndName&lt;/wptx1:DisplayMode&gt;      </SimpleData>
+		<SimpleData name="ctx_CreationTimeExtension">&lt;ctx:CreationTime&gt;2023-03-01T06:19:53Z&lt;/ctx:CreationTime&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.1640833094716,67.5490555912256</coordinates></Point>
+  </Placemark>
+</Folder>
+<Folder><name>routes</name>
+  <Placemark>
+	<name>01.08.2023</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#routes">
+		<SimpleData name="gpxx_RouteExtension">&lt;gpxx:IsAutoNamed&gt;false&lt;/gpxx:IsAutoNamed&gt;        &lt;gpxx:DisplayColor&gt;Magenta&lt;/gpxx:DisplayColor&gt;      </SimpleData>
+		<SimpleData name="tmd_TripMetaData">&lt;tmd:TripName&gt;Поездка в ИГАРКА&lt;/tmd:TripName&gt;        &lt;tmd:Date&gt;2023-07-31T21:00:00Z&lt;/tmd:Date&gt;        &lt;tmd:DayNumber&gt;15&lt;/tmd:DayNumber&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>89.5785833057016,67.6654166914523 89.2029066570103,67.6118302624673</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>02.08.2023</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#routes">
+		<SimpleData name="gpxx_RouteExtension">&lt;gpxx:IsAutoNamed&gt;false&lt;/gpxx:IsAutoNamed&gt;        &lt;gpxx:DisplayColor&gt;Magenta&lt;/gpxx:DisplayColor&gt;      </SimpleData>
+		<SimpleData name="tmd_TripMetaData">&lt;tmd:TripName&gt;Поездка в ИГАРКА&lt;/tmd:TripName&gt;        &lt;tmd:Date&gt;2023-08-01T21:00:00Z&lt;/tmd:Date&gt;        &lt;tmd:DayNumber&gt;16&lt;/tmd:DayNumber&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>89.2029066570103,67.6118302624673 89.1390833258629,67.5735833030194 89.0740000270307,67.5467499811202 89.0740000270307,67.5467499811202</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>03.08.2023</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#routes">
+		<SimpleData name="gpxx_RouteExtension">&lt;gpxx:IsAutoNamed&gt;false&lt;/gpxx:IsAutoNamed&gt;        &lt;gpxx:DisplayColor&gt;Magenta&lt;/gpxx:DisplayColor&gt;      </SimpleData>
+		<SimpleData name="tmd_TripMetaData">&lt;tmd:TripName&gt;Поездка в ИГАРКА&lt;/tmd:TripName&gt;        &lt;tmd:Date&gt;2023-08-02T21:00:00Z&lt;/tmd:Date&gt;        &lt;tmd:DayNumber&gt;17&lt;/tmd:DayNumber&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>89.0740000270307,67.5467499811202 88.9915555436164,67.5088610965759 88.6467222031206,67.5203888956457</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>04.08.2023</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#routes">
+		<SimpleData name="gpxx_RouteExtension">&lt;gpxx:IsAutoNamed&gt;false&lt;/gpxx:IsAutoNamed&gt;        &lt;gpxx:DisplayColor&gt;Magenta&lt;/gpxx:DisplayColor&gt;      </SimpleData>
+		<SimpleData name="tmd_TripMetaData">&lt;tmd:TripName&gt;Поездка в ИГАРКА&lt;/tmd:TripName&gt;        &lt;tmd:Date&gt;2023-08-03T21:00:00Z&lt;/tmd:Date&gt;        &lt;tmd:DayNumber&gt;18&lt;/tmd:DayNumber&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>88.6467222031206,67.5203888956457 88.5293888859451,67.5160555355251 88.4228333551437,67.530416669324 88.223106013611,67.513520764187</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>05.08.2023 Дневка</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#routes">
+		<SimpleData name="gpxx_RouteExtension">&lt;gpxx:IsAutoNamed&gt;false&lt;/gpxx:IsAutoNamed&gt;        &lt;gpxx:DisplayColor&gt;Magenta&lt;/gpxx:DisplayColor&gt;      </SimpleData>
+		<SimpleData name="tmd_TripMetaData">&lt;tmd:TripName&gt;Путорана&lt;/tmd:TripName&gt;        &lt;tmd:Date&gt;2023-08-04T21:00:00Z&lt;/tmd:Date&gt;        &lt;tmd:DayNumber&gt;19&lt;/tmd:DayNumber&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>88.223106013611,67.513520764187</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>06.08.2023</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#routes">
+		<SimpleData name="gpxx_RouteExtension">&lt;gpxx:IsAutoNamed&gt;false&lt;/gpxx:IsAutoNamed&gt;        &lt;gpxx:DisplayColor&gt;Magenta&lt;/gpxx:DisplayColor&gt;      </SimpleData>
+		<SimpleData name="tmd_TripMetaData">&lt;tmd:TripName&gt;Поездка в ИГАРКА&lt;/tmd:TripName&gt;        &lt;tmd:Date&gt;2023-08-05T21:00:00Z&lt;/tmd:Date&gt;        &lt;tmd:DayNumber&gt;20&lt;/tmd:DayNumber&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>88.223106013611,67.513520764187 88.1187778059393,67.4961667042226 87.9513931274414,67.4883270263672 87.8943378478289,67.4497855268419 87.8450000379235,67.4841389246285 87.8450000379235,67.4841389246285 87.7648207638413,67.5164421088994</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>07.08.2023</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#routes">
+		<SimpleData name="gpxx_RouteExtension">&lt;gpxx:IsAutoNamed&gt;false&lt;/gpxx:IsAutoNamed&gt;        &lt;gpxx:DisplayColor&gt;Magenta&lt;/gpxx:DisplayColor&gt;      </SimpleData>
+		<SimpleData name="tmd_TripMetaData">&lt;tmd:TripName&gt;Поездка в ИГАРКА&lt;/tmd:TripName&gt;        &lt;tmd:Date&gt;2023-08-06T21:00:00Z&lt;/tmd:Date&gt;        &lt;tmd:DayNumber&gt;21&lt;/tmd:DayNumber&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>87.7648207638413,67.5164421088994 87.7179722115397,67.5106944702566 87.6430000271648,67.6278333272785</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>08.08.2023</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#routes">
+		<SimpleData name="gpxx_RouteExtension">&lt;gpxx:IsAutoNamed&gt;false&lt;/gpxx:IsAutoNamed&gt;        &lt;gpxx:DisplayColor&gt;Magenta&lt;/gpxx:DisplayColor&gt;      </SimpleData>
+		<SimpleData name="tmd_TripMetaData">&lt;tmd:TripName&gt;Поездка в ИГАРКА&lt;/tmd:TripName&gt;        &lt;tmd:Date&gt;2023-08-07T21:00:00Z&lt;/tmd:Date&gt;        &lt;tmd:DayNumber&gt;22&lt;/tmd:DayNumber&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>87.6430000271648,67.6278333272785 87.5676110945642,67.637055516243 87.4983888957649,67.6243332959712 87.4766388628632,67.6069721952081 87.2113610990345,67.5494722556323</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>09.08.2023</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#routes">
+		<SimpleData name="gpxx_RouteExtension">&lt;gpxx:IsAutoNamed&gt;false&lt;/gpxx:IsAutoNamed&gt;        &lt;gpxx:DisplayColor&gt;Magenta&lt;/gpxx:DisplayColor&gt;      </SimpleData>
+		<SimpleData name="tmd_TripMetaData">&lt;tmd:TripName&gt;Поездка в ИГАРКА&lt;/tmd:TripName&gt;        &lt;tmd:Date&gt;2023-08-08T21:00:00Z&lt;/tmd:Date&gt;        &lt;tmd:DayNumber&gt;23&lt;/tmd:DayNumber&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>87.2113610990345,67.5494722556323 87.1640833094716,67.5490555912256 87.1124444156885,67.5380000285804 87.0913889072835,67.5359444506466 87.0708055514842,67.5301111489534 87.0601389091462,67.5280277431011 87.058222219348,67.5279999990016 87.0226388610899,67.5275277625769</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>10.08.2023</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#routes">
+		<SimpleData name="gpxx_RouteExtension">&lt;gpxx:IsAutoNamed&gt;false&lt;/gpxx:IsAutoNamed&gt;        &lt;gpxx:DisplayColor&gt;Magenta&lt;/gpxx:DisplayColor&gt;      </SimpleData>
+		<SimpleData name="tmd_TripMetaData">&lt;tmd:TripName&gt;Путорана&lt;/tmd:TripName&gt;        &lt;tmd:Date&gt;2023-08-09T21:00:00Z&lt;/tmd:Date&gt;        &lt;tmd:DayNumber&gt;24&lt;/tmd:DayNumber&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>87.2113610990345,67.5494722556323 87.0226388610899,67.5275277625769 87.2113610990345,67.5494722556323</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>11.08.2023</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#routes">
+		<SimpleData name="gpxx_RouteExtension">&lt;gpxx:IsAutoNamed&gt;false&lt;/gpxx:IsAutoNamed&gt;        &lt;gpxx:DisplayColor&gt;Magenta&lt;/gpxx:DisplayColor&gt;      </SimpleData>
+		<SimpleData name="tmd_TripMetaData">&lt;tmd:TripName&gt;Поездка в ИГАРКА&lt;/tmd:TripName&gt;        &lt;tmd:Date&gt;2023-08-10T21:00:00Z&lt;/tmd:Date&gt;        &lt;tmd:DayNumber&gt;25&lt;/tmd:DayNumber&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>87.0226388610899,67.5275277625769 87.021500011906,67.5255833286792 86.96223936975,67.4341869726777</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>12.08.2023</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#routes">
+		<SimpleData name="gpxx_RouteExtension">&lt;gpxx:IsAutoNamed&gt;false&lt;/gpxx:IsAutoNamed&gt;        &lt;gpxx:DisplayColor&gt;Magenta&lt;/gpxx:DisplayColor&gt;      </SimpleData>
+		<SimpleData name="tmd_TripMetaData">&lt;tmd:TripName&gt;Путорана&lt;/tmd:TripName&gt;        &lt;tmd:Date&gt;2023-08-11T21:00:00Z&lt;/tmd:Date&gt;        &lt;tmd:DayNumber&gt;26&lt;/tmd:DayNumber&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>86.96223936975,67.4341869726777 86.9086388591677,67.3804999608546 86.904250010848,67.3783611506224 86.8998889066279,67.3795833159238 86.8363055493683,67.3750555794686 86.8242221977562,67.3772222176194 86.8095277994871,67.3759722243994 86.805333327502,67.3767499811947 86.7863888852298,67.374805547297 86.7713333107531,67.3815277498215 86.7458055540919,67.3934166412801</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>13.08.2023</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#routes">
+		<SimpleData name="gpxx_RouteExtension">&lt;gpxx:IsAutoNamed&gt;false&lt;/gpxx:IsAutoNamed&gt;        &lt;gpxx:DisplayColor&gt;Magenta&lt;/gpxx:DisplayColor&gt;      </SimpleData>
+		<SimpleData name="tmd_TripMetaData">&lt;tmd:TripName&gt;Путорана&lt;/tmd:TripName&gt;        &lt;tmd:Date&gt;2023-08-12T21:00:00Z&lt;/tmd:Date&gt;        &lt;tmd:DayNumber&gt;27&lt;/tmd:DayNumber&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>86.7458055540919,67.3934166412801 86.6948855761439,67.4305023718625 86.5691944118589,67.4599166493863</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>20.07.2023</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#routes">
+		<SimpleData name="gpxx_RouteExtension">&lt;gpxx:IsAutoNamed&gt;false&lt;/gpxx:IsAutoNamed&gt;        &lt;gpxx:DisplayColor&gt;Magenta&lt;/gpxx:DisplayColor&gt;      </SimpleData>
+		<SimpleData name="tmd_TripMetaData">&lt;tmd:TripName&gt;Путорана&lt;/tmd:TripName&gt;        &lt;tmd:Date&gt;2023-07-19T21:00:00Z&lt;/tmd:Date&gt;        &lt;tmd:DayNumber&gt;3&lt;/tmd:DayNumber&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>88.3663201332092,66.9399815797806 91.5627953689545,67.5552918948233</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>21.07.2023</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#routes">
+		<SimpleData name="gpxx_RouteExtension">&lt;gpxx:IsAutoNamed&gt;false&lt;/gpxx:IsAutoNamed&gt;        &lt;gpxx:DisplayColor&gt;Magenta&lt;/gpxx:DisplayColor&gt;      </SimpleData>
+		<SimpleData name="tmd_TripMetaData">&lt;tmd:TripName&gt;Поездка в ИГАРКА&lt;/tmd:TripName&gt;        &lt;tmd:Date&gt;2023-07-20T21:00:00Z&lt;/tmd:Date&gt;        &lt;tmd:DayNumber&gt;4&lt;/tmd:DayNumber&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>91.5627953689545,67.5552918948233 94.2182092834264,68.3699842169881 94.2814722005278,68.3068055380136 94.2182092834264,68.3699842169881</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>22.07.2023</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#routes">
+		<SimpleData name="gpxx_RouteExtension">&lt;gpxx:IsAutoNamed&gt;false&lt;/gpxx:IsAutoNamed&gt;        &lt;gpxx:DisplayColor&gt;Magenta&lt;/gpxx:DisplayColor&gt;      </SimpleData>
+		<SimpleData name="tmd_TripMetaData">&lt;tmd:TripName&gt;Поездка в ИГАРКА&lt;/tmd:TripName&gt;        &lt;tmd:Date&gt;2023-07-21T21:00:00Z&lt;/tmd:Date&gt;        &lt;tmd:DayNumber&gt;5&lt;/tmd:DayNumber&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>94.2182092834264,68.3699842169881 93.2984166964889,68.4458611439914 93.1759444344789,68.4711666963995 91.0936944466084,67.4857221823186</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>24.07.2023</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#routes">
+		<SimpleData name="gpxx_RouteExtension">&lt;gpxx:IsAutoNamed&gt;false&lt;/gpxx:IsAutoNamed&gt;        &lt;gpxx:DisplayColor&gt;Magenta&lt;/gpxx:DisplayColor&gt;      </SimpleData>
+		<SimpleData name="tmd_TripMetaData">&lt;tmd:TripName&gt;Путорана&lt;/tmd:TripName&gt;        &lt;tmd:Date&gt;2023-07-23T21:00:00Z&lt;/tmd:Date&gt;        &lt;tmd:DayNumber&gt;7&lt;/tmd:DayNumber&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>91.0936944466084,67.4857221823186 91.0216944850981,67.5120555236936 90.9226944856346,67.5415555480868 90.8870555553585,67.5530277751386</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>25.07.2023</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#routes">
+		<SimpleData name="gpxx_RouteExtension">&lt;gpxx:IsAutoNamed&gt;false&lt;/gpxx:IsAutoNamed&gt;        &lt;gpxx:DisplayColor&gt;Magenta&lt;/gpxx:DisplayColor&gt;      </SimpleData>
+		<SimpleData name="tmd_TripMetaData">&lt;tmd:TripName&gt;Путорана&lt;/tmd:TripName&gt;        &lt;tmd:Date&gt;2023-07-24T21:00:00Z&lt;/tmd:Date&gt;        &lt;tmd:DayNumber&gt;8&lt;/tmd:DayNumber&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>90.8870555553585,67.5530277751386 90.9226944856346,67.5415555480868 91.0936944466084,67.4857221823186 90.9226944856346,67.5415555480868 90.8870555553585,67.5530277751386</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>26.07.2023</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#routes">
+		<SimpleData name="gpxx_RouteExtension">&lt;gpxx:IsAutoNamed&gt;false&lt;/gpxx:IsAutoNamed&gt;        &lt;gpxx:DisplayColor&gt;Magenta&lt;/gpxx:DisplayColor&gt;      </SimpleData>
+		<SimpleData name="tmd_TripMetaData">&lt;tmd:TripName&gt;Поездка в ИГАРКА&lt;/tmd:TripName&gt;        &lt;tmd:Date&gt;2023-07-25T21:00:00Z&lt;/tmd:Date&gt;        &lt;tmd:DayNumber&gt;9&lt;/tmd:DayNumber&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>90.8870555553585,67.5530277751386 90.8704722113907,67.5542500242591 90.8616944309324,67.5583610963076 90.822277776897,67.559305569157 90.8028055261821,67.5691111385822 90.7774166576564,67.5730833224952 90.7626944314688,67.5732222106308 90.6900555174798,67.5929722376168 90.6620000302792,67.6112499833107</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>27.07.2023</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#routes">
+		<SimpleData name="gpxx_RouteExtension">&lt;gpxx:IsAutoNamed&gt;false&lt;/gpxx:IsAutoNamed&gt;        &lt;gpxx:DisplayColor&gt;Magenta&lt;/gpxx:DisplayColor&gt;      </SimpleData>
+		<SimpleData name="tmd_TripMetaData">&lt;tmd:TripName&gt;Путорана&lt;/tmd:TripName&gt;        &lt;tmd:Date&gt;2023-07-26T21:00:00Z&lt;/tmd:Date&gt;        &lt;tmd:DayNumber&gt;10&lt;/tmd:DayNumber&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>90.6620000302792,67.6112499833107 90.8870555553585,67.5530277751386 90.6620000302792,67.6112499833107</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>28.07.2023</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#routes">
+		<SimpleData name="gpxx_RouteExtension">&lt;gpxx:IsAutoNamed&gt;false&lt;/gpxx:IsAutoNamed&gt;        &lt;gpxx:DisplayColor&gt;Magenta&lt;/gpxx:DisplayColor&gt;      </SimpleData>
+		<SimpleData name="tmd_TripMetaData">&lt;tmd:TripName&gt;Поездка в ИГАРКА&lt;/tmd:TripName&gt;        &lt;tmd:Date&gt;2023-07-27T21:00:00Z&lt;/tmd:Date&gt;        &lt;tmd:DayNumber&gt;11&lt;/tmd:DayNumber&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>90.6620000302792,67.6112499833107 90.5212976317853,67.6518468931317</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>29.07.2023</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#routes">
+		<SimpleData name="gpxx_RouteExtension">&lt;gpxx:IsAutoNamed&gt;false&lt;/gpxx:IsAutoNamed&gt;        &lt;gpxx:DisplayColor&gt;Magenta&lt;/gpxx:DisplayColor&gt;      </SimpleData>
+		<SimpleData name="tmd_TripMetaData">&lt;tmd:TripName&gt;Поездка в ИГАРКА&lt;/tmd:TripName&gt;        &lt;tmd:Date&gt;2023-07-28T21:00:00Z&lt;/tmd:Date&gt;        &lt;tmd:DayNumber&gt;12&lt;/tmd:DayNumber&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>90.5212976317853,67.6518468931317 90.3341944422573,67.6493055839092 90.1394203025848,67.6671509072185</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>30.07.2023 Дневка</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#routes">
+		<SimpleData name="gpxx_RouteExtension">&lt;gpxx:IsAutoNamed&gt;false&lt;/gpxx:IsAutoNamed&gt;        &lt;gpxx:DisplayColor&gt;Magenta&lt;/gpxx:DisplayColor&gt;      </SimpleData>
+		<SimpleData name="tmd_TripMetaData">&lt;tmd:TripName&gt;Поездка в ИГАРКА&lt;/tmd:TripName&gt;        &lt;tmd:Date&gt;2023-07-29T21:00:00Z&lt;/tmd:Date&gt;        &lt;tmd:DayNumber&gt;13&lt;/tmd:DayNumber&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>90.1394203025848,67.6671509072185</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>31.07.2023</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#routes">
+		<SimpleData name="gpxx_RouteExtension">&lt;gpxx:IsAutoNamed&gt;false&lt;/gpxx:IsAutoNamed&gt;        &lt;gpxx:DisplayColor&gt;Magenta&lt;/gpxx:DisplayColor&gt;      </SimpleData>
+		<SimpleData name="tmd_TripMetaData">&lt;tmd:TripName&gt;Поездка в ИГАРКА&lt;/tmd:TripName&gt;        &lt;tmd:Date&gt;2023-07-30T21:00:00Z&lt;/tmd:Date&gt;        &lt;tmd:DayNumber&gt;14&lt;/tmd:DayNumber&gt;      </SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>90.1394203025848,67.6671509072185 89.8570277821273,67.6899166591465 89.5785833057016,67.6654166914523 89.5785833057016,67.6654166914523</coordinates></LineString>
+  </Placemark>
+</Folder>
+<Folder><name>tracks</name>
+</Folder>
+<Folder><name>route_points</name>
+  <Placemark>
+	<name>Стоянка 2 на реке Горбиачине 2 км впадение р Верх Танка</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">0</SimpleData>
+		<SimpleData name="route_point_id">0</SimpleData>
+		<SimpleData name="time">2023/05/04 14:07:57+00</SimpleData>
+		<SimpleData name="cmt">N67° 39' 55.5&quot; E89° 34' 42.9&quot;</SimpleData>
+		<SimpleData name="desc">N67° 39' 55.5&quot; E89° 34' 42.9&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>89.5785833057016,67.6654166914523</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 3 на реке Горбиачин</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">0</SimpleData>
+		<SimpleData name="route_point_id">1</SimpleData>
+		<SimpleData name="time">2023/02/28 15:28:54+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>89.2029066570103,67.6118302624673</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 3 на реке Горбиачин</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">1</SimpleData>
+		<SimpleData name="route_point_id">0</SimpleData>
+		<SimpleData name="time">2023/02/28 15:28:54+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>89.2029066570103,67.6118302624673</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Порог «Верхний водопад»</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">1</SimpleData>
+		<SimpleData name="route_point_id">1</SimpleData>
+		<SimpleData name="time">2023/02/27 21:50:55+00</SimpleData>
+		<SimpleData name="cmt">N67° 34' 24.9&quot; E89° 08' 20.7&quot;</SimpleData>
+		<SimpleData name="desc">N67° 34' 24.9&quot; E89° 08' 20.7&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>89.1390833258629,67.5735833030194</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 4 на реке Горбиачин</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">1</SimpleData>
+		<SimpleData name="route_point_id">2</SimpleData>
+		<SimpleData name="time">2023/02/27 21:51:47+00</SimpleData>
+		<SimpleData name="cmt">N67° 32' 48.3&quot; E89° 04' 26.4&quot;</SimpleData>
+		<SimpleData name="desc">N67° 32' 48.3&quot; E89° 04' 26.4&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>89.0740000270307,67.5467499811202</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 16 августа</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">1</SimpleData>
+		<SimpleData name="route_point_id">3</SimpleData>
+		<SimpleData name="time">2023/05/04 17:21:39+00</SimpleData>
+		<SimpleData name="cmt">N67° 32' 48.3&quot; E89° 04' 26.4&quot;</SimpleData>
+		<SimpleData name="desc">N67° 32' 48.3&quot; E89° 04' 26.4&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>89.0740000270307,67.5467499811202</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 4 на реке Горбиачин</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">2</SimpleData>
+		<SimpleData name="route_point_id">0</SimpleData>
+		<SimpleData name="time">2023/02/27 21:51:47+00</SimpleData>
+		<SimpleData name="cmt">N67° 32' 48.3&quot; E89° 04' 26.4&quot;</SimpleData>
+		<SimpleData name="desc">N67° 32' 48.3&quot; E89° 04' 26.4&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>89.0740000270307,67.5467499811202</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Порог «Желоб»</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">2</SimpleData>
+		<SimpleData name="route_point_id">1</SimpleData>
+		<SimpleData name="time">2023/02/27 21:52:30+00</SimpleData>
+		<SimpleData name="cmt">N67° 30' 31.9&quot; E88° 59' 29.6&quot;</SimpleData>
+		<SimpleData name="desc">N67° 30' 31.9&quot; E88° 59' 29.6&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>88.9915555436164,67.5088610965759</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 5 Изба с баней</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">2</SimpleData>
+		<SimpleData name="route_point_id">2</SimpleData>
+		<SimpleData name="time">2023/02/28 15:40:21+00</SimpleData>
+		<SimpleData name="cmt">N67° 31' 13.4&quot; E88° 38' 48.2&quot;</SimpleData>
+		<SimpleData name="desc">N67° 31' 13.4&quot; E88° 38' 48.2&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>88.6467222031206,67.5203888956457</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 5 Изба с баней</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">3</SimpleData>
+		<SimpleData name="route_point_id">0</SimpleData>
+		<SimpleData name="time">2023/02/28 15:40:21+00</SimpleData>
+		<SimpleData name="cmt">N67° 31' 13.4&quot; E88° 38' 48.2&quot;</SimpleData>
+		<SimpleData name="desc">N67° 31' 13.4&quot; E88° 38' 48.2&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>88.6467222031206,67.5203888956457</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Порог «Средний водопад»</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">3</SimpleData>
+		<SimpleData name="route_point_id">1</SimpleData>
+		<SimpleData name="time">2023/02/28 15:43:10+00</SimpleData>
+		<SimpleData name="cmt">N67° 30' 57.8&quot; E88° 31' 45.8&quot;</SimpleData>
+		<SimpleData name="desc">N67° 30' 57.8&quot; E88° 31' 45.8&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>88.5293888859451,67.5160555355251</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 17 августа</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">3</SimpleData>
+		<SimpleData name="route_point_id">2</SimpleData>
+		<SimpleData name="time">2023/05/04 17:22:16+00</SimpleData>
+		<SimpleData name="cmt">N67° 31' 49.5&quot; E88° 25' 22.2&quot;</SimpleData>
+		<SimpleData name="desc">N67° 31' 49.5&quot; E88° 25' 22.2&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>88.4228333551437,67.530416669324</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 6 на реке Горбиачин!</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">3</SimpleData>
+		<SimpleData name="route_point_id">3</SimpleData>
+		<SimpleData name="time">2023/05/05 04:55:44+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>88.223106013611,67.513520764187</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 6 на реке Горбиачин!</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">4</SimpleData>
+		<SimpleData name="route_point_id">0</SimpleData>
+		<SimpleData name="time">2023/05/05 04:55:44+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>88.223106013611,67.513520764187</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 6 на реке Горбиачин!</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">5</SimpleData>
+		<SimpleData name="route_point_id">0</SimpleData>
+		<SimpleData name="time">2023/05/05 04:55:44+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>88.223106013611,67.513520764187</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Порог «Нижний водопад»</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">5</SimpleData>
+		<SimpleData name="route_point_id">1</SimpleData>
+		<SimpleData name="time">2023/02/28 15:48:05+00</SimpleData>
+		<SimpleData name="cmt">N67° 29' 46.2&quot; E88° 07' 07.6&quot;</SimpleData>
+		<SimpleData name="desc">N67° 29' 46.2&quot; E88° 07' 07.6&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>88.1187778059393,67.4961667042226</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ОЛЕНИЙ</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">5</SimpleData>
+		<SimpleData name="route_point_id">2</SimpleData>
+		<SimpleData name="time">2023/05/05 04:50:50+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.9513931274414,67.4883270263672</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Изгиб Курейки</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">5</SimpleData>
+		<SimpleData name="route_point_id">3</SimpleData>
+		<SimpleData name="time">2023/05/05 04:48:56+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.8943378478289,67.4497855268419</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Метеостанция</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">5</SimpleData>
+		<SimpleData name="route_point_id">4</SimpleData>
+		<SimpleData name="time">2023/02/28 15:54:08+00</SimpleData>
+		<SimpleData name="cmt">N67° 29' 02.9&quot; E87° 50' 42.0&quot;</SimpleData>
+		<SimpleData name="desc">N67° 29' 02.9&quot; E87° 50' 42.0&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.8450000379235,67.4841389246285</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 18 августа</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">5</SimpleData>
+		<SimpleData name="route_point_id">5</SimpleData>
+		<SimpleData name="time">2023/05/04 17:22:46+00</SimpleData>
+		<SimpleData name="cmt">N67° 29' 02.9&quot; E87° 50' 42.0&quot;</SimpleData>
+		<SimpleData name="desc">N67° 29' 02.9&quot; E87° 50' 42.0&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.8450000379235,67.4841389246285</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 7 на реке Горбиачин</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">5</SimpleData>
+		<SimpleData name="route_point_id">6</SimpleData>
+		<SimpleData name="time">2023/03/01 05:40:41+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.7648207638413,67.5164421088994</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 7 на реке Горбиачин</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">6</SimpleData>
+		<SimpleData name="route_point_id">0</SimpleData>
+		<SimpleData name="time">2023/03/01 05:40:41+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.7648207638413,67.5164421088994</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Конец течения на реке (начало водохранилища)</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">6</SimpleData>
+		<SimpleData name="route_point_id">1</SimpleData>
+		<SimpleData name="time">2023/02/28 15:58:20+00</SimpleData>
+		<SimpleData name="cmt">N67° 30' 38.5&quot; E87° 43' 04.7&quot;</SimpleData>
+		<SimpleData name="desc">N67° 30' 38.5&quot; E87° 43' 04.7&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.7179722115397,67.5106944702566</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка на Хантайском водохранилище</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">6</SimpleData>
+		<SimpleData name="route_point_id">2</SimpleData>
+		<SimpleData name="time">2023/02/28 16:02:53+00</SimpleData>
+		<SimpleData name="cmt">N67° 37' 40.2&quot; E87° 38' 34.8&quot;</SimpleData>
+		<SimpleData name="desc">N67° 37' 40.2&quot; E87° 38' 34.8&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.6430000271648,67.6278333272785</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка на Хантайском водохранилище</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">7</SimpleData>
+		<SimpleData name="route_point_id">0</SimpleData>
+		<SimpleData name="time">2023/02/28 16:02:53+00</SimpleData>
+		<SimpleData name="cmt">N67° 37' 40.2&quot; E87° 38' 34.8&quot;</SimpleData>
+		<SimpleData name="desc">N67° 37' 40.2&quot; E87° 38' 34.8&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.6430000271648,67.6278333272785</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>1-ая остановка на островах</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">7</SimpleData>
+		<SimpleData name="route_point_id">1</SimpleData>
+		<SimpleData name="time">2023/02/28 16:04:48+00</SimpleData>
+		<SimpleData name="cmt">N67° 38' 13.4&quot; E87° 34' 03.4&quot;</SimpleData>
+		<SimpleData name="desc">N67° 38' 13.4&quot; E87° 34' 03.4&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.5676110945642,67.637055516243</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2-ая остановка на островах</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">7</SimpleData>
+		<SimpleData name="route_point_id">2</SimpleData>
+		<SimpleData name="time">2023/02/28 16:05:39+00</SimpleData>
+		<SimpleData name="cmt">N67° 37' 27.6&quot; E87° 29' 54.2&quot;</SimpleData>
+		<SimpleData name="desc">N67° 37' 27.6&quot; E87° 29' 54.2&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.4983888957649,67.6243332959712</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3-ая остановка на островах</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">7</SimpleData>
+		<SimpleData name="route_point_id">3</SimpleData>
+		<SimpleData name="time">2023/02/28 16:06:17+00</SimpleData>
+		<SimpleData name="cmt">N67° 36' 25.1&quot; E87° 28' 35.9&quot;</SimpleData>
+		<SimpleData name="desc">N67° 36' 25.1&quot; E87° 28' 35.9&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.4766388628632,67.6069721952081</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка Усть-Хантайское водохранилище 3</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">7</SimpleData>
+		<SimpleData name="route_point_id">4</SimpleData>
+		<SimpleData name="time">2023/02/28 16:07:03+00</SimpleData>
+		<SimpleData name="cmt">N67° 32' 58.1&quot; E87° 12' 40.9&quot;</SimpleData>
+		<SimpleData name="desc">N67° 32' 58.1&quot; E87° 12' 40.9&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.2113610990345,67.5494722556323</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка Усть-Хантайское водохранилище 3</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">8</SimpleData>
+		<SimpleData name="route_point_id">0</SimpleData>
+		<SimpleData name="time">2023/02/28 16:07:03+00</SimpleData>
+		<SimpleData name="cmt">N67° 32' 58.1&quot; E87° 12' 40.9&quot;</SimpleData>
+		<SimpleData name="desc">N67° 32' 58.1&quot; E87° 12' 40.9&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.2113610990345,67.5494722556323</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ягельник</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">8</SimpleData>
+		<SimpleData name="route_point_id">1</SimpleData>
+		<SimpleData name="time">2023/03/01 06:19:53+00</SimpleData>
+		<SimpleData name="cmt">N67° 32' 56.6&quot; E87° 09' 50.7&quot;</SimpleData>
+		<SimpleData name="desc">N67° 32' 56.6&quot; E87° 09' 50.7&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.1640833094716,67.5490555912256</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Перешеек болот</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">8</SimpleData>
+		<SimpleData name="route_point_id">2</SimpleData>
+		<SimpleData name="time">2023/03/01 06:20:49+00</SimpleData>
+		<SimpleData name="cmt">N67° 32' 16.8&quot; E87° 06' 44.8&quot;</SimpleData>
+		<SimpleData name="desc">N67° 32' 16.8&quot; E87° 06' 44.8&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.1124444156885,67.5380000285804</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Перекус пешка на Черную</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">8</SimpleData>
+		<SimpleData name="route_point_id">3</SimpleData>
+		<SimpleData name="time">2023/03/01 06:23:33+00</SimpleData>
+		<SimpleData name="cmt">N67° 32' 09.4&quot; E87° 05' 29.0&quot;</SimpleData>
+		<SimpleData name="desc">N67° 32' 09.4&quot; E87° 05' 29.0&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.0913889072835,67.5359444506466</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Начало 1-го болота</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">8</SimpleData>
+		<SimpleData name="route_point_id">4</SimpleData>
+		<SimpleData name="time">2023/03/01 06:24:23+00</SimpleData>
+		<SimpleData name="cmt">N67° 31' 48.4&quot; E87° 04' 14.9&quot;</SimpleData>
+		<SimpleData name="desc">N67° 31' 48.4&quot; E87° 04' 14.9&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.0708055514842,67.5301111489534</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Начало 2-го болота</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">8</SimpleData>
+		<SimpleData name="route_point_id">5</SimpleData>
+		<SimpleData name="time">2023/03/01 06:26:06+00</SimpleData>
+		<SimpleData name="cmt">N67° 31' 40.9&quot; E87° 03' 36.5&quot;</SimpleData>
+		<SimpleData name="desc">N67° 31' 40.9&quot; E87° 03' 36.5&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.0601389091462,67.5280277431011</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Брод через ручей</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">8</SimpleData>
+		<SimpleData name="route_point_id">6</SimpleData>
+		<SimpleData name="time">2023/03/01 06:26:48+00</SimpleData>
+		<SimpleData name="cmt">N67° 31' 40.8&quot; E87° 03' 29.6&quot;</SimpleData>
+		<SimpleData name="desc">N67° 31' 40.8&quot; E87° 03' 29.6&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.058222219348,67.5279999990016</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка Стапель Черная</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">8</SimpleData>
+		<SimpleData name="route_point_id">7</SimpleData>
+		<SimpleData name="time">2023/03/01 06:27:34+00</SimpleData>
+		<SimpleData name="cmt">N67° 31' 39.1&quot; E87° 01' 21.5&quot;</SimpleData>
+		<SimpleData name="desc">N67° 31' 39.1&quot; E87° 01' 21.5&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.0226388610899,67.5275277625769</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка Усть-Хантайское водохранилище 3</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">9</SimpleData>
+		<SimpleData name="route_point_id">0</SimpleData>
+		<SimpleData name="time">2023/02/28 16:07:03+00</SimpleData>
+		<SimpleData name="cmt">N67° 32' 58.1&quot; E87° 12' 40.9&quot;</SimpleData>
+		<SimpleData name="desc">N67° 32' 58.1&quot; E87° 12' 40.9&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.2113610990345,67.5494722556323</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка Стапель Черная</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">9</SimpleData>
+		<SimpleData name="route_point_id">1</SimpleData>
+		<SimpleData name="time">2023/03/01 06:27:34+00</SimpleData>
+		<SimpleData name="cmt">N67° 31' 39.1&quot; E87° 01' 21.5&quot;</SimpleData>
+		<SimpleData name="desc">N67° 31' 39.1&quot; E87° 01' 21.5&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.0226388610899,67.5275277625769</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка Усть-Хантайское водохранилище 3</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">9</SimpleData>
+		<SimpleData name="route_point_id">2</SimpleData>
+		<SimpleData name="time">2023/02/28 16:07:03+00</SimpleData>
+		<SimpleData name="cmt">N67° 32' 58.1&quot; E87° 12' 40.9&quot;</SimpleData>
+		<SimpleData name="desc">N67° 32' 58.1&quot; E87° 12' 40.9&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.2113610990345,67.5494722556323</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка Стапель Черная</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">10</SimpleData>
+		<SimpleData name="route_point_id">0</SimpleData>
+		<SimpleData name="time">2023/03/01 06:27:34+00</SimpleData>
+		<SimpleData name="cmt">N67° 31' 39.1&quot; E87° 01' 21.5&quot;</SimpleData>
+		<SimpleData name="desc">N67° 31' 39.1&quot; E87° 01' 21.5&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.0226388610899,67.5275277625769</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Слияние р. Чёрной с ручьём Приток</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">10</SimpleData>
+		<SimpleData name="route_point_id">1</SimpleData>
+		<SimpleData name="time">2023/03/01 06:57:41+00</SimpleData>
+		<SimpleData name="cmt">N67° 31' 32.1&quot; E87° 01' 17.4&quot;</SimpleData>
+		<SimpleData name="desc">N67° 31' 32.1&quot; E87° 01' 17.4&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.021500011906,67.5255833286792</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка на реке Черная 1</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">10</SimpleData>
+		<SimpleData name="route_point_id">2</SimpleData>
+		<SimpleData name="time">2023/05/04 08:45:57+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.96223936975,67.4341869726777</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка на реке Черная 1</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">11</SimpleData>
+		<SimpleData name="route_point_id">0</SimpleData>
+		<SimpleData name="time">2023/05/04 08:45:57+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.96223936975,67.4341869726777</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Порог «Рыбацкий»</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">11</SimpleData>
+		<SimpleData name="route_point_id">1</SimpleData>
+		<SimpleData name="time">2023/03/01 07:01:12+00</SimpleData>
+		<SimpleData name="cmt">N67° 22' 49.8&quot; E86° 54' 31.1&quot;</SimpleData>
+		<SimpleData name="desc">N67° 22' 49.8&quot; E86° 54' 31.1&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.9086388591677,67.3804999608546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Порог «Ворота»</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">11</SimpleData>
+		<SimpleData name="route_point_id">2</SimpleData>
+		<SimpleData name="time">2023/03/01 07:01:57+00</SimpleData>
+		<SimpleData name="cmt">N67° 22' 42.1&quot; E86° 54' 15.3&quot;</SimpleData>
+		<SimpleData name="desc">N67° 22' 42.1&quot; E86° 54' 15.3&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.904250010848,67.3783611506224</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Порог «Поворотный»</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">11</SimpleData>
+		<SimpleData name="route_point_id">3</SimpleData>
+		<SimpleData name="time">2023/03/01 07:03:20+00</SimpleData>
+		<SimpleData name="cmt">N67° 22' 46.5&quot; E86° 53' 59.6&quot;</SimpleData>
+		<SimpleData name="desc">N67° 22' 46.5&quot; E86° 53' 59.6&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.8998889066279,67.3795833159238</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Порог «Солёный» !!!</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">11</SimpleData>
+		<SimpleData name="route_point_id">4</SimpleData>
+		<SimpleData name="time">2023/03/01 07:05:17+00</SimpleData>
+		<SimpleData name="cmt">N67° 22' 30.2&quot; E86° 50' 10.7&quot;</SimpleData>
+		<SimpleData name="desc">N67° 22' 30.2&quot; E86° 50' 10.7&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.8363055493683,67.3750555794686</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Порог «Посадский»</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">11</SimpleData>
+		<SimpleData name="route_point_id">5</SimpleData>
+		<SimpleData name="time">2023/03/01 07:06:06+00</SimpleData>
+		<SimpleData name="cmt">N67° 22' 38.0&quot; E86° 49' 27.2&quot;</SimpleData>
+		<SimpleData name="desc">N67° 22' 38.0&quot; E86° 49' 27.2&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.8242221977562,67.3772222176194</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Порог «Наполеон» !!!</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">11</SimpleData>
+		<SimpleData name="route_point_id">6</SimpleData>
+		<SimpleData name="time">2023/03/01 07:06:59+00</SimpleData>
+		<SimpleData name="cmt">N67° 22' 33.5&quot; E86° 48' 34.3&quot;</SimpleData>
+		<SimpleData name="desc">N67° 22' 33.5&quot; E86° 48' 34.3&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.8095277994871,67.3759722243994</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Непроход (скальное сужение)</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">11</SimpleData>
+		<SimpleData name="route_point_id">7</SimpleData>
+		<SimpleData name="time">2023/05/04 06:40:22+00</SimpleData>
+		<SimpleData name="cmt">N67° 22' 36.3&quot; E86° 48' 19.2&quot;</SimpleData>
+		<SimpleData name="desc">N67° 22' 36.3&quot; E86° 48' 19.2&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.805333327502,67.3767499811947</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Брод Черная</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">11</SimpleData>
+		<SimpleData name="route_point_id">8</SimpleData>
+		<SimpleData name="time">2023/03/01 07:09:33+00</SimpleData>
+		<SimpleData name="cmt">N67° 22' 29.3&quot; E86° 47' 11.0&quot;</SimpleData>
+		<SimpleData name="desc">N67° 22' 29.3&quot; E86° 47' 11.0&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.7863888852298,67.374805547297</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Порог «Финишный»</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">11</SimpleData>
+		<SimpleData name="route_point_id">9</SimpleData>
+		<SimpleData name="time">2023/03/01 07:10:14+00</SimpleData>
+		<SimpleData name="cmt">N67° 22' 53.5&quot; E86° 46' 16.8&quot;</SimpleData>
+		<SimpleData name="desc">N67° 22' 53.5&quot; E86° 46' 16.8&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.7713333107531,67.3815277498215</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 2 на реке Черная</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">11</SimpleData>
+		<SimpleData name="route_point_id">10</SimpleData>
+		<SimpleData name="time">2023/03/01 07:10:52+00</SimpleData>
+		<SimpleData name="cmt">N67° 23' 36.3&quot; E86° 44' 44.9&quot;</SimpleData>
+		<SimpleData name="desc">N67° 23' 36.3&quot; E86° 44' 44.9&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.7458055540919,67.3934166412801</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 2 на реке Черная</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">12</SimpleData>
+		<SimpleData name="route_point_id">0</SimpleData>
+		<SimpleData name="time">2023/03/01 07:10:52+00</SimpleData>
+		<SimpleData name="cmt">N67° 23' 36.3&quot; E86° 44' 44.9&quot;</SimpleData>
+		<SimpleData name="desc">N67° 23' 36.3&quot; E86° 44' 44.9&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.7458055540919,67.3934166412801</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ИГАРСКАЯ (ПРОТОКА)</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">12</SimpleData>
+		<SimpleData name="route_point_id">1</SimpleData>
+		<SimpleData name="time">2023/05/04 06:37:17+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.6948855761439,67.4305023718625</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Антистапель (пристань в Игарке)</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">12</SimpleData>
+		<SimpleData name="route_point_id">2</SimpleData>
+		<SimpleData name="time">2023/03/01 07:12:30+00</SimpleData>
+		<SimpleData name="cmt">N67° 27' 35.7&quot; E86° 34' 09.1&quot;</SimpleData>
+		<SimpleData name="desc">N67° 27' 35.7&quot; E86° 34' 09.1&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.5691944118589,67.4599166493863</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>СВЕТЛОГОРСК (ТУРУХАНСКИЙ)</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">13</SimpleData>
+		<SimpleData name="route_point_id">0</SimpleData>
+		<SimpleData name="time">2023/02/27 20:26:32+00</SimpleData>
+		<SimpleData name="cmt">СВЕТЛОГОРСК (ТУРУХАНСКИЙ)</SimpleData>
+		<SimpleData name="desc">СВЕТЛОГОРСК (ТУРУХАНСКИЙ)</SimpleData>
+		<SimpleData name="sym">City (Small)</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;146115100000018043141200000000000000&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>88.3663201332092,66.9399815797806</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>База на Курейки</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">13</SimpleData>
+		<SimpleData name="route_point_id">1</SimpleData>
+		<SimpleData name="time">2023/02/28 05:40:08+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>91.5627953689545,67.5552918948233</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>База на Курейки</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">14</SimpleData>
+		<SimpleData name="route_point_id">0</SimpleData>
+		<SimpleData name="time">2023/02/28 05:40:08+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>91.5627953689545,67.5552918948233</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка на водопаде Курейский</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">14</SimpleData>
+		<SimpleData name="route_point_id">1</SimpleData>
+		<SimpleData name="time">2023/02/28 05:42:51+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>94.2182092834264,68.3699842169881</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Большой Курейский водопад</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">14</SimpleData>
+		<SimpleData name="route_point_id">2</SimpleData>
+		<SimpleData name="time">2023/02/28 05:47:46+00</SimpleData>
+		<SimpleData name="cmt">N68° 18' 24.5&quot; E94° 16' 53.3&quot;</SimpleData>
+		<SimpleData name="desc">N68° 18' 24.5&quot; E94° 16' 53.3&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>94.2814722005278,68.3068055380136</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка на водопаде Курейский</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">14</SimpleData>
+		<SimpleData name="route_point_id">3</SimpleData>
+		<SimpleData name="time">2023/02/28 05:42:51+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>94.2182092834264,68.3699842169881</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка на водопаде Курейский</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">15</SimpleData>
+		<SimpleData name="route_point_id">0</SimpleData>
+		<SimpleData name="time">2023/02/28 05:42:51+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>94.2182092834264,68.3699842169881</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Тальниковый водопад</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">15</SimpleData>
+		<SimpleData name="route_point_id">1</SimpleData>
+		<SimpleData name="time">2023/02/28 05:57:10+00</SimpleData>
+		<SimpleData name="cmt">N68° 26' 45.1&quot; E93° 17' 54.3&quot;</SimpleData>
+		<SimpleData name="desc">N68° 26' 45.1&quot; E93° 17' 54.3&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>93.2984166964889,68.4458611439914</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Два брата</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">15</SimpleData>
+		<SimpleData name="route_point_id">2</SimpleData>
+		<SimpleData name="time">2023/02/28 06:00:09+00</SimpleData>
+		<SimpleData name="cmt">N68° 28' 16.2&quot; E93° 10' 33.4&quot;</SimpleData>
+		<SimpleData name="desc">N68° 28' 16.2&quot; E93° 10' 33.4&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>93.1759444344789,68.4711666963995</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 1 пешка Горбиачин</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">15</SimpleData>
+		<SimpleData name="route_point_id">3</SimpleData>
+		<SimpleData name="time">2023/02/28 12:43:07+00</SimpleData>
+		<SimpleData name="cmt">N67° 29' 08.6&quot; E91° 05' 37.3&quot;</SimpleData>
+		<SimpleData name="desc">N67° 29' 08.6&quot; E91° 05' 37.3&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>91.0936944466084,67.4857221823186</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 1 пешка Горбиачин</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">16</SimpleData>
+		<SimpleData name="route_point_id">0</SimpleData>
+		<SimpleData name="time">2023/02/28 12:43:07+00</SimpleData>
+		<SimpleData name="cmt">N67° 29' 08.6&quot; E91° 05' 37.3&quot;</SimpleData>
+		<SimpleData name="desc">N67° 29' 08.6&quot; E91° 05' 37.3&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>91.0936944466084,67.4857221823186</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Перекус 1 в 1 день пешки</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">16</SimpleData>
+		<SimpleData name="route_point_id">1</SimpleData>
+		<SimpleData name="time">2023/02/27 20:46:25+00</SimpleData>
+		<SimpleData name="cmt">N67° 30' 43.4&quot; E91° 01' 18.1&quot;</SimpleData>
+		<SimpleData name="desc">N67° 30' 43.4&quot; E91° 01' 18.1&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>91.0216944850981,67.5120555236936</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Перекус 2 1 день пешки</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">16</SimpleData>
+		<SimpleData name="route_point_id">2</SimpleData>
+		<SimpleData name="time">2023/02/27 20:53:32+00</SimpleData>
+		<SimpleData name="cmt">N67° 32' 29.6&quot; E90° 55' 21.7&quot;</SimpleData>
+		<SimpleData name="desc">N67° 32' 29.6&quot; E90° 55' 21.7&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.9226944856346,67.5415555480868</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 2 пешка Горбиачин</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">16</SimpleData>
+		<SimpleData name="route_point_id">3</SimpleData>
+		<SimpleData name="time">2023/02/28 13:08:34+00</SimpleData>
+		<SimpleData name="cmt">N67° 33' 10.9&quot; E90° 53' 13.4&quot;</SimpleData>
+		<SimpleData name="desc">N67° 33' 10.9&quot; E90° 53' 13.4&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.8870555553585,67.5530277751386</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 2 пешка Горбиачин</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">17</SimpleData>
+		<SimpleData name="route_point_id">0</SimpleData>
+		<SimpleData name="time">2023/02/28 13:08:34+00</SimpleData>
+		<SimpleData name="cmt">N67° 33' 10.9&quot; E90° 53' 13.4&quot;</SimpleData>
+		<SimpleData name="desc">N67° 33' 10.9&quot; E90° 53' 13.4&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.8870555553585,67.5530277751386</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Перекус 2 1 день пешки</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">17</SimpleData>
+		<SimpleData name="route_point_id">1</SimpleData>
+		<SimpleData name="time">2023/02/27 20:53:32+00</SimpleData>
+		<SimpleData name="cmt">N67° 32' 29.6&quot; E90° 55' 21.7&quot;</SimpleData>
+		<SimpleData name="desc">N67° 32' 29.6&quot; E90° 55' 21.7&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.9226944856346,67.5415555480868</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 1 пешка Горбиачин</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">17</SimpleData>
+		<SimpleData name="route_point_id">2</SimpleData>
+		<SimpleData name="time">2023/02/28 12:43:07+00</SimpleData>
+		<SimpleData name="cmt">N67° 29' 08.6&quot; E91° 05' 37.3&quot;</SimpleData>
+		<SimpleData name="desc">N67° 29' 08.6&quot; E91° 05' 37.3&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>91.0936944466084,67.4857221823186</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Перекус 2 1 день пешки</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">17</SimpleData>
+		<SimpleData name="route_point_id">3</SimpleData>
+		<SimpleData name="time">2023/02/27 20:53:32+00</SimpleData>
+		<SimpleData name="cmt">N67° 32' 29.6&quot; E90° 55' 21.7&quot;</SimpleData>
+		<SimpleData name="desc">N67° 32' 29.6&quot; E90° 55' 21.7&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.9226944856346,67.5415555480868</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 2 пешка Горбиачин</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">17</SimpleData>
+		<SimpleData name="route_point_id">4</SimpleData>
+		<SimpleData name="time">2023/02/28 13:08:34+00</SimpleData>
+		<SimpleData name="cmt">N67° 33' 10.9&quot; E90° 53' 13.4&quot;</SimpleData>
+		<SimpleData name="desc">N67° 33' 10.9&quot; E90° 53' 13.4&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.8870555553585,67.5530277751386</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 2 пешка Горбиачин</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">18</SimpleData>
+		<SimpleData name="route_point_id">0</SimpleData>
+		<SimpleData name="time">2023/02/28 13:08:34+00</SimpleData>
+		<SimpleData name="cmt">N67° 33' 10.9&quot; E90° 53' 13.4&quot;</SimpleData>
+		<SimpleData name="desc">N67° 33' 10.9&quot; E90° 53' 13.4&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.8870555553585,67.5530277751386</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Начало тропы</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">18</SimpleData>
+		<SimpleData name="route_point_id">1</SimpleData>
+		<SimpleData name="time">2023/02/27 20:59:50+00</SimpleData>
+		<SimpleData name="cmt">N67° 33' 15.3&quot; E90° 52' 13.7&quot;</SimpleData>
+		<SimpleData name="desc">N67° 33' 15.3&quot; E90° 52' 13.7&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.8704722113907,67.5542500242591</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Конец тропы</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">18</SimpleData>
+		<SimpleData name="route_point_id">2</SimpleData>
+		<SimpleData name="time">2023/02/27 21:03:08+00</SimpleData>
+		<SimpleData name="cmt">N67° 33' 30.1&quot; E90° 51' 42.1&quot;</SimpleData>
+		<SimpleData name="desc">N67° 33' 30.1&quot; E90° 51' 42.1&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.8616944309324,67.5583610963076</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Брод через Унту</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">18</SimpleData>
+		<SimpleData name="route_point_id">3</SimpleData>
+		<SimpleData name="time">2023/02/27 21:18:40+00</SimpleData>
+		<SimpleData name="cmt">N67° 33' 33.5&quot; E90° 49' 20.2&quot;</SimpleData>
+		<SimpleData name="desc">N67° 33' 33.5&quot; E90° 49' 20.2&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.822277776897,67.559305569157</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Начало Берёзовой рощи</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">18</SimpleData>
+		<SimpleData name="route_point_id">4</SimpleData>
+		<SimpleData name="time">2023/02/27 21:19:48+00</SimpleData>
+		<SimpleData name="cmt">N67° 34' 08.8&quot; E90° 48' 10.1&quot;</SimpleData>
+		<SimpleData name="desc">N67° 34' 08.8&quot; E90° 48' 10.1&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.8028055261821,67.5691111385822</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Конец берёзовой рощи</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">18</SimpleData>
+		<SimpleData name="route_point_id">5</SimpleData>
+		<SimpleData name="time">2023/02/27 21:21:36+00</SimpleData>
+		<SimpleData name="cmt">N67° 34' 23.1&quot; E90° 46' 38.7&quot;</SimpleData>
+		<SimpleData name="desc">N67° 34' 23.1&quot; E90° 46' 38.7&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.7774166576564,67.5730833224952</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Начало сухого ручья</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">18</SimpleData>
+		<SimpleData name="route_point_id">6</SimpleData>
+		<SimpleData name="time">2023/02/27 21:22:44+00</SimpleData>
+		<SimpleData name="cmt">N67° 34' 23.6&quot; E90° 45' 45.7&quot;</SimpleData>
+		<SimpleData name="desc">N67° 34' 23.6&quot; E90° 45' 45.7&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.7626944314688,67.5732222106308</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Брод через Сыптыр</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">18</SimpleData>
+		<SimpleData name="route_point_id">7</SimpleData>
+		<SimpleData name="time">2023/02/27 21:24:34+00</SimpleData>
+		<SimpleData name="cmt">N67° 35' 34.7&quot; E90° 41' 24.2&quot;</SimpleData>
+		<SimpleData name="desc">N67° 35' 34.7&quot; E90° 41' 24.2&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.6900555174798,67.5929722376168</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стапель на Купчаке</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">18</SimpleData>
+		<SimpleData name="route_point_id">8</SimpleData>
+		<SimpleData name="time">2023/02/27 21:25:36+00</SimpleData>
+		<SimpleData name="cmt">N67° 36' 40.5&quot; E90° 39' 43.2&quot;</SimpleData>
+		<SimpleData name="desc">N67° 36' 40.5&quot; E90° 39' 43.2&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.6620000302792,67.6112499833107</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стапель на Купчаке</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">19</SimpleData>
+		<SimpleData name="route_point_id">0</SimpleData>
+		<SimpleData name="time">2023/02/27 21:25:36+00</SimpleData>
+		<SimpleData name="cmt">N67° 36' 40.5&quot; E90° 39' 43.2&quot;</SimpleData>
+		<SimpleData name="desc">N67° 36' 40.5&quot; E90° 39' 43.2&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.6620000302792,67.6112499833107</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 2 пешка Горбиачин</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">19</SimpleData>
+		<SimpleData name="route_point_id">1</SimpleData>
+		<SimpleData name="time">2023/02/28 13:08:34+00</SimpleData>
+		<SimpleData name="cmt">N67° 33' 10.9&quot; E90° 53' 13.4&quot;</SimpleData>
+		<SimpleData name="desc">N67° 33' 10.9&quot; E90° 53' 13.4&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.8870555553585,67.5530277751386</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стапель на Купчаке</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">19</SimpleData>
+		<SimpleData name="route_point_id">2</SimpleData>
+		<SimpleData name="time">2023/02/27 21:25:36+00</SimpleData>
+		<SimpleData name="cmt">N67° 36' 40.5&quot; E90° 39' 43.2&quot;</SimpleData>
+		<SimpleData name="desc">N67° 36' 40.5&quot; E90° 39' 43.2&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.6620000302792,67.6112499833107</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стапель на Купчаке</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">20</SimpleData>
+		<SimpleData name="route_point_id">0</SimpleData>
+		<SimpleData name="time">2023/02/27 21:25:36+00</SimpleData>
+		<SimpleData name="cmt">N67° 36' 40.5&quot; E90° 39' 43.2&quot;</SimpleData>
+		<SimpleData name="desc">N67° 36' 40.5&quot; E90° 39' 43.2&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.6620000302792,67.6112499833107</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка на оз Горбиачин</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">20</SimpleData>
+		<SimpleData name="route_point_id">1</SimpleData>
+		<SimpleData name="time">2023/02/28 14:19:39+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.5212976317853,67.6518468931317</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка на оз Горбиачин</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">21</SimpleData>
+		<SimpleData name="route_point_id">0</SimpleData>
+		<SimpleData name="time">2023/02/28 14:19:39+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.5212976317853,67.6518468931317</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 14 августа</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">21</SimpleData>
+		<SimpleData name="route_point_id">1</SimpleData>
+		<SimpleData name="time">2023/05/04 17:20:14+00</SimpleData>
+		<SimpleData name="cmt">N67° 38' 57.5&quot; E90° 20' 03.1&quot;</SimpleData>
+		<SimpleData name="desc">N67° 38' 57.5&quot; E90° 20' 03.1&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.3341944422573,67.6493055839092</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 1 на Горбиачине Дневка</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">21</SimpleData>
+		<SimpleData name="route_point_id">2</SimpleData>
+		<SimpleData name="time">2023/02/28 15:17:00+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.1394203025848,67.6671509072185</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 1 на Горбиачине Дневка</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">22</SimpleData>
+		<SimpleData name="route_point_id">0</SimpleData>
+		<SimpleData name="time">2023/02/28 15:17:00+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.1394203025848,67.6671509072185</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 1 на Горбиачине Дневка</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">23</SimpleData>
+		<SimpleData name="route_point_id">0</SimpleData>
+		<SimpleData name="time">2023/02/28 15:17:00+00</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.1394203025848,67.6671509072185</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Порог «Яма Кильмагира»</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">23</SimpleData>
+		<SimpleData name="route_point_id">1</SimpleData>
+		<SimpleData name="time">2023/02/27 21:47:53+00</SimpleData>
+		<SimpleData name="cmt">N67° 41' 23.7&quot; E89° 51' 25.3&quot;</SimpleData>
+		<SimpleData name="desc">N67° 41' 23.7&quot; E89° 51' 25.3&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>89.8570277821273,67.6899166591465</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 2 на реке Горбиачине 2 км впадение р Верх Танка</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">23</SimpleData>
+		<SimpleData name="route_point_id">2</SimpleData>
+		<SimpleData name="time">2023/05/04 14:07:57+00</SimpleData>
+		<SimpleData name="cmt">N67° 39' 55.5&quot; E89° 34' 42.9&quot;</SimpleData>
+		<SimpleData name="desc">N67° 39' 55.5&quot; E89° 34' 42.9&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>89.5785833057016,67.6654166914523</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Стоянка 15 августа</name>
+	<ExtendedData><SchemaData schemaUrl="#route_points">
+		<SimpleData name="route_fid">23</SimpleData>
+		<SimpleData name="route_point_id">3</SimpleData>
+		<SimpleData name="time">2023/05/04 17:21:00+00</SimpleData>
+		<SimpleData name="cmt">N67° 39' 55.5&quot; E89° 34' 42.9&quot;</SimpleData>
+		<SimpleData name="desc">N67° 39' 55.5&quot; E89° 34' 42.9&quot;</SimpleData>
+		<SimpleData name="sym">Flag, Blue</SimpleData>
+		<SimpleData name="trp_ViaPoint">&lt;trp:CalculationMode&gt;Direct&lt;/trp:CalculationMode&gt;        </SimpleData>
+		<SimpleData name="gpxx_RoutePointExtension">&lt;gpxx:Subclass&gt;000000000000FFFFFFFFFFFFFFFFFFFFFFFF&lt;/gpxx:Subclass&gt;        </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>89.5785833057016,67.6654166914523</coordinates></Point>
+  </Placemark>
+</Folder>
+<Folder><name>track_points</name>
+</Folder>
+<Schema name="routes" id="routes">
+	<SimpleField name="cmt" type="string"></SimpleField>
+	<SimpleField name="desc" type="string"></SimpleField>
+	<SimpleField name="src" type="string"></SimpleField>
+	<SimpleField name="link1_href" type="string"></SimpleField>
+	<SimpleField name="link1_text" type="string"></SimpleField>
+	<SimpleField name="link1_type" type="string"></SimpleField>
+	<SimpleField name="link2_href" type="string"></SimpleField>
+	<SimpleField name="link2_text" type="string"></SimpleField>
+	<SimpleField name="link2_type" type="string"></SimpleField>
+	<SimpleField name="number" type="int"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="gpxx_RouteExtension" type="string"></SimpleField>
+	<SimpleField name="tmd_TripMetaData" type="string"></SimpleField>
+</Schema>
+<Schema name="route_points" id="route_points">
+	<SimpleField name="route_fid" type="int"></SimpleField>
+	<SimpleField name="route_point_id" type="int"></SimpleField>
+	<SimpleField name="ele" type="float"></SimpleField>
+	<SimpleField name="time" type="string"></SimpleField>
+	<SimpleField name="magvar" type="float"></SimpleField>
+	<SimpleField name="geoidheight" type="float"></SimpleField>
+	<SimpleField name="cmt" type="string"></SimpleField>
+	<SimpleField name="desc" type="string"></SimpleField>
+	<SimpleField name="src" type="string"></SimpleField>
+	<SimpleField name="link1_href" type="string"></SimpleField>
+	<SimpleField name="link1_text" type="string"></SimpleField>
+	<SimpleField name="link1_type" type="string"></SimpleField>
+	<SimpleField name="link2_href" type="string"></SimpleField>
+	<SimpleField name="link2_text" type="string"></SimpleField>
+	<SimpleField name="link2_type" type="string"></SimpleField>
+	<SimpleField name="sym" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="fix" type="string"></SimpleField>
+	<SimpleField name="sat" type="int"></SimpleField>
+	<SimpleField name="hdop" type="float"></SimpleField>
+	<SimpleField name="vdop" type="float"></SimpleField>
+	<SimpleField name="pdop" type="float"></SimpleField>
+	<SimpleField name="ageofdgpsdata" type="float"></SimpleField>
+	<SimpleField name="dgpsid" type="int"></SimpleField>
+	<SimpleField name="trp_ViaPoint" type="string"></SimpleField>
+	<SimpleField name="gpxx_RoutePointExtension" type="string"></SimpleField>
+</Schema>
+</Document></kml>
