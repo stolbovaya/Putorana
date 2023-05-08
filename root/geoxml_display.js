@@ -2,7 +2,7 @@ ymaps.ready(init);
 
 function init() {
     var myMap = new ymaps.Map('map', {
-            center: [67.499558, 88.781025],// Москва
+            center: [67.499558, 88.781025],// 
             zoom: 10,
             controls: ['zoomControl']
         }),
@@ -18,7 +18,7 @@ function init() {
     // При нажатии на кнопку загружаем соответствующий XML-файл
     // и отображаем его данные на карте.
     gpxButton.click(function (e) {
-        ymaps.geoXml.load('geoObjects.gpx')
+        ymaps.geoXml.load('trek.gpx')
             .then(onGeoXmlLoad);
         e.target.disabled = true;
     });
