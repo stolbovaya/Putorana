@@ -2,7 +2,7 @@ ymaps.ready(init);
 
 function init() {
     var myMap = new ymaps.Map('map', {
-            center: [59.994675, 29.702651],// Москва
+            center: [67.499558, 88.781025],// Москва
             zoom: 10,
             controls: ['zoomControl']
         }),
